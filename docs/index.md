@@ -28,9 +28,6 @@ If you have any questions about the material, please submit a question below! We
 ## Modules and Topics Overview
 Overview of topics covered in each module, the format(s) of the training course, any technical or other requirements, and suggested prior knowledge. Additional prerequisites and background information will be detailed within each module. 
 
-## Modules and Topics Overview
-This table is just an example. Actual 12-day overview will differ based on the country.
-
 | Module          | Topic                                               | Est. length    | Format    |
 |:----------------|:----------------------------------------------------|:---------------|:----------|
 | 0               | Introduction to GIS with QGIS                       | 3 hours        | Hybrid    | 
@@ -44,4 +41,5 @@ This table is just an example. Actual 12-day overview will differ based on the c
 | 3               | Calculating Biomass                                 | 3 hours        | Hybrid    |
 | 3               | Height Metrics and Land Cover Classifications       | 3 hours        | Hybrid    |
 
-# May the Forest Be With You
+
+# _May the Forest Be With You_
