@@ -4,21 +4,29 @@ title: Overview
 nav_order: 1
 ---
 
-# ​Spaceborne Lidar Applications Trainings and Resources
-These trainings and collected resources aim to build participants' capacity to use lidar Earth science technologies for ecosystem service monitoring and management. For a detailed overview, you can read the [concept note](linkhere). After completeing these trainings, participants will gain:
-1. A conceptual understanding of lidar sensors and systems compared to other forms of remote sensing.
-2. Knowledge of the use and interpretation of said lidar systems for ecosystem applications and areas of research overviewing data types and analysis platforms. 
-3. Ability to search, select, acquire lidar data with recommendations for testing and applying data quality processing methods.
-4. An overview of the Global Ecosystem Dynamics Investigation lidar mission, its theoretical background and product details and future of the mission.
+# ​Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications
+This four module training series will help get you started in understanding the testing capabilities of the novel spaceborne lidar technology, Global Ecosystem Dynamics Investigation (GEDI), for vegetation related decision-making. The four courses will highlight global case studies using GEDI for vegetation monitoring (with brief mention of other applications), drawing on successful and scalable NASA-funded projects in regions such as Nepal, Brazil, Peru, boreal forests, Africa and USA and its use in tools such as Online Biomass Inference using Waveforms and iNventory (OBIWAN) and the SERVIR CArbon Pilot (S-CAP). These examples in how GEDI informs canopy characteristics, terrestrial ecosystems, biomass estimations for forests, deciduous, evergreen shrubland, grassland, or other vegetated regions will include hands-on analysis and exemplify how lidar was used to address real-world challenges faced by example project stakeholders
+
+## Training Objectives
+After completing this module, participants will be able to: 
+1. Describe essential physical principles of lidar remote sensing and its sensitivity to biophysical parameters.
+2. An overview of the Global Ecosystem Dynamics Investigation lidar mission, its theoretical background and product details and future of the mission.
+3. Interpret GEDI data products Level 1-4 across various vegetation types and test recommended filtering and processing techniques. 
+4. Ability to search, select, acquire lidar data with recommendations for testing and applying data quality processing methods.
 5. Methodological approaches for generating and validating canopy height, biomass, and other structural analyses of ecosystems with field and real-world use examples.
+6. Examine several biomass estimation methods using forest inventory, airborne and spaceborne lidar involving Machine Learning and remote sensing data fusion techniques.
+7. Use the OBIWAN (Online Biomass Inference using Waveforms and iNventory) initiative API to account for forest carbon and biomass across timelines.
+8. Advanced GEDI application analysis of carbon stock change due to fire, logging, and deforestation disturbances in the Amazon.
 
-The lesson content for each Module can be found in the tabs on the lefthand side panel. Additionally, you can find information about all the workshop partners under the **Partners** tab, supplementary learning material under the **Resources** tab, and photos from the workshops (and a place to upload your own photos) under the **Photos** tab. 
+## Navigation
+The lesson content for each of the four Modules can be found in the tabs on the left hand side panel. Information about the development **Partners**, **Supplementary Resources**, and **Surveys** to fill out  specific to each Module can be found in each Module subtabs. Tutorials and hands-on exercises are found in this **Github repository**. Any questions or feedback regarding the scripting and tutorials can be directed to this [**Discussions page**](https://github.com/SERVIR/GEDI_Earthhub_ARSET_Training/discussions) on the Github repository. 
 
+### Questions
+If you have any questions about the material, please submit a question below! We are here to help.
+[Ask a Question](https://github.com/SERVIR/GEDI_Earthhub_ARSET_Training/discussions){: .btn .btn-purple }
 
-## Questions
-If you have any questions about the material, please submit a question below! We are here to help.  
-
-[Ask a Question](https://github.com/jimenezSA/may-the-lidar-be-with-you/discussions){: .btn .btn-purple }
+## Modules and Topics Overview
+Overview of topics covered in each module, the format(s) of the training course, any technical or other requirements, and suggested prior knowledge. Additional prerequisites and background information will be detailed within each module. 
 
 ## Modules and Topics Overview
 This table is just an example. Actual 12-day overview will differ based on the country.
@@ -36,10 +44,4 @@ This table is just an example. Actual 12-day overview will differ based on the c
 | 3               | Calculating Biomass                                 | 3 hours        | Hybrid    |
 | 3               | Height Metrics and Land Cover Classifications       | 3 hours        | Hybrid    |
 
-## Feedback
-If you have any feedback from any of the workshops, please fill out the form below. It helps us improve future workshops!
-
-[Give Feedback](https://github.com/jimenezSA/may-the-lidar-be-with-you/discussions){: .btn .btn-purple }
-
-## Additional Resources and Contacts
-Recordings, contacts, or additional resources can be found on the **Resources** tab.
+# May the Forest Be With You
