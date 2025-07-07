@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Review of HYDRAfloods"
-parent: "SAR for Flood Monitoring in QGIS (with DEM)"
+title: "Partners"
+parent: "Module 1"
 nav_order: 6
 ---
 
