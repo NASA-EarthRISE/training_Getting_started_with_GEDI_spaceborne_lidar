@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Suggested Prior Knowledge and Resources"
+title: "Suggested Prior Knowledge"
 nav_order: 2
 ---
 
