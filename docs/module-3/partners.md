@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Partners"
-parent: "Module 1"
+parent: "Module 3"
 nav_order: 6
 ---
 
