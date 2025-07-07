@@ -2,7 +2,7 @@
 layout: page
 title: "Summary"
 parent: "Module 2"
-nav_order: 5
+nav_order: 4
 ---
 
 ## Post Survey
