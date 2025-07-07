@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Completion
-nav_order: -1
+title: "Conclusion"
+nav_order: 13
 ---
 
 # Congratulations!
