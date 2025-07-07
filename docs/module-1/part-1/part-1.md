@@ -2,6 +2,7 @@
 layout: page
 title: "Part 1"
 parent: "Module 1"
+has_children: True
 nav_order: 1
 ---
 
