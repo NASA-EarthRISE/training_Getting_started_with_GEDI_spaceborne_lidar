@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Module 1"
-permalink: /module-1
+title: "Module 3"
+permalink: /module-3
 has_children: True
-nav_order: 4
+nav_order: 6
 ---
 
 # SAR for Flood Mapping in QGIS (with DEM)
