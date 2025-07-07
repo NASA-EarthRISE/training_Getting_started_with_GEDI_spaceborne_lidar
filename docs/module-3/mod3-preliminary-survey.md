@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Module 1 Preliminary Survey"
-parent: "Module 1"
+title: "Module 3 Preliminary Survey"
+parent: "Module 3"
 nav_order: 1
 ---
 
