@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Exercise 1: "
-parent: "Module 1"
+parent: "Part 1"
 nav_order: 3
 ---
 
