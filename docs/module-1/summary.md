@@ -1,10 +1,12 @@
 ---
 layout: page
-title: "Exercise 2: Mapping flood-prone areas using SRTM data in QGIS"
-parent: "SAR for Flood Monitoring in QGIS (with DEM)"
-nav_order: 5
+title: "Summary"
+parent: "Module 1"
+nav_order: 4
 ---
 
+## Post Survey
+Please take the post survey
 
 ## Exercise 2: Mapping flood-prone areas using SRTM data in QGIS
 *This exercise is an adaptation of [this tutorial](https://www.youtube.com/watch?v=QXQ92oVua3s)* 
