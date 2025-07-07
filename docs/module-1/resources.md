@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Flood events overview"
-parent: "SAR for Flood Monitoring in QGIS (with DEM)"
-nav_order: 2
+title: "Supplementary Resources"
+parent: "Module 1"
+nav_order: 5
 ---
 
 ## Flood events overview
