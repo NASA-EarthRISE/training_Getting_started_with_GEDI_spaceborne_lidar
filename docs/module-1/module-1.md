@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "SAR for Flood Monitoring in QGIS (with DEM)"
+title: "Module 1"
 permalink: /module-1
 has_children: True
 nav_order: 4
