@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Part 2 - Time Series Change Detection with LandTrendr
-parent:  "Advanced Google Earth Engine: Change Detection"
-nav_order: 3
+title: "Part 1 hands-on tutorial
+parent:  "Part 1"
+nav_order: 1
 ---
 
 # Part 2 - Time Series Change Detection with LandTrendr
