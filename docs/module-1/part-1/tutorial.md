@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Tutorial: "
+title: "Tutorial "
 parent: "Part 1"
-nav_order: 3
+nav_order: 2
 ---
 
 ## Exercise 1: Mapping surface water using SAR data with QGIS
