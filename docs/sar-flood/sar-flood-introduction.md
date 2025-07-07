@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Introduction"
-parent: "SAR for Flood Monitoring in QGIS (with DEM)"
+title: "Module 1 Preliminary Survey"
+parent: "Module 1"
 nav_order: 1
 ---
 
