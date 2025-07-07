@@ -3,6 +3,7 @@ layout: page
 title: "Introduction to GIS with QGIS"
 permalink: /intro-to-gis
 has_children: true
+parent: Suggested Prior Knowledge and Resources
 nav_order: 2
 ---
 
