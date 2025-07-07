@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Advanced Google Earth Engine: Change Detection"
-permalink: /gee-change-detection
+title: "Module 2"
+permalink: /module-2
 has_children: True
-nav_order: 11
+nav_order: 5
 ---
 
 # Advanced Google Earth Engine: Change Detection
