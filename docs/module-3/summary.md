@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Summary"
-parent: "Module 1"
+parent: "Module 3"
 nav_order: 5
 ---
 
