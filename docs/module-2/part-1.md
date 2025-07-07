@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Introduction
-parent: "Advanced Google Earth Engine: Change Detection"
-nav_order: 1
+title: "Part 1"
+parent: "Module 2"
+nav_order: 2
 ---
 
 # Introduction
