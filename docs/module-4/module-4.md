@@ -3,7 +3,7 @@ layout: page
 title: "Module 4"
 permalink: /module-4
 has_children: True
-nav_order: 4
+nav_order: 7
 ---
 
 # SAR for Flood Mapping in QGIS (with DEM)
