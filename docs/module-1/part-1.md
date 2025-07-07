@@ -2,7 +2,7 @@
 layout: page
 title: "Part 1"
 parent: "Module 1"
-nav_order: 3
+nav_order: 2
 ---
 
 
