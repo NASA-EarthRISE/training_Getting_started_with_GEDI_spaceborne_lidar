@@ -3,7 +3,8 @@ layout: page
 title: "Drone Flight & Image Processing"
 permalink: /drone-image-processing
 has_children: True
-nav_order: 10
+parent: Suggested Prior Knowledge and Resources
+nav_order: 4
 ---
 
 # Drone Flight and Image Processing
