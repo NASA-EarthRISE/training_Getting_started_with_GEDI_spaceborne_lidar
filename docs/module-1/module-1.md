@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "SAR for Flood Monitoring in QGIS (with DEM)"
-permalink: /sar-flood
+title: "Module 1"
+permalink: /module-1
 has_children: True
-nav_order: 7
+nav_order: 4
 ---
 
 # SAR for Flood Mapping in QGIS (with DEM)
