@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Part 1 hands-on tutorial
+title: "Part 1 hands-on tutorial"
 parent:  "Part 1"
 nav_order: 1
 ---
