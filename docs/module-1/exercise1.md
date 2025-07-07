@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Exercise 1: Mapping surface water using SAR data with QGIS"
-parent: "SAR for Flood Monitoring in QGIS (with DEM)"
+title: "Exercise 1: "
+parent: "Module 1"
 nav_order: 4
 ---
 
