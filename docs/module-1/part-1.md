@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Fundamentals of remote sensing for flood monitoring"
-parent: "SAR for Flood Monitoring in QGIS (with DEM)"
+title: "Part 1"
+parent: "Module 1"
 nav_order: 3
 ---
 
