@@ -24,7 +24,7 @@ Welcome to an Introduction to GIS & Remote Sensing! This workshop will give an o
 
 **How is the data collected?** Satellites carry one or more sensors that measure the level of electromagnetic radiation coming from the Earth and its atmosphere. The level changes based on different atmospheric and surface conditions. Those variations give us information about the atmospheric and surface conditions within the Earth’s system.
 
-<img align="center" src="../images/intro-rs-images/reflected-energy-radiation.png" hspace="15" vspace="10" width="500">
+<img align="center" src="../docs/images/intro-rs-images/reflected-energy-radiation.png" hspace="15" vspace="10" width="500">
 
 Figure 1. Earth radiation components. Image source: NASA ARSET.
 
