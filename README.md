@@ -11,6 +11,7 @@ XX
 YY
 ZZ
 
+
 Training Structure:
 
 |- Module_I_XXXXXXX.ipynb
