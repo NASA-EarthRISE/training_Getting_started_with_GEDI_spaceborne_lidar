@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Test md download"
+parent:  "Mod 2 Part 1"
+nav_order: 2
+---
 ## Southern Alabama Prescribed Burn AOI
 
 Here's the general aoi (a bounding box that's a big larger) of a prescribed burn that happened on Feb 19, 2023 as part of a longleaf pine restoration initiative. This burn is located in Conecuh National Forest, close to the town of Wing, AL. This particular burn was a broadcast burn carried out with a drip torch, and intended as a fuels reduction treatment. Approximately 137 acres were estimated to have been treated.
