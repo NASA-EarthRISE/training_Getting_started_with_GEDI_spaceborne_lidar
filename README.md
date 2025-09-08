@@ -12,12 +12,14 @@ YY
 ZZ
 
 
-Training Structure:
+Tutorials for Each Module:
 
-|- Module_I_XXXXXXX.ipynb
+|- Module 1 XXXXXXX.ipynb
 
-|- [Module_II_Exploring_Forest_Structure_with_GEDI_L2B.ipynb](https://github.com/SERVIR/GEDI_Earthhub_ARSET_Training/blob/main/Module_II_Exploring_Forest_Structure_with_GEDI_L2B.ipynb)
+|- Module 2 [Exploring_Forest_Structure_with_GEDI_L2B.ipynb](https://github.com/SERVIR/Explore_GEDI_EarthRISE_Training/blob/main/Exploring_Forest_Structure_with_GEDI_L2B.ipynb)
 
-|- Module_III_YYYYYY.ipynb
+|- Module 2 [Exploring_Biomass_with_GEDI_l4.ipynb](https://github.com/SERVIR/Explore_GEDI_EarthRISE_Training/blob/main/Exploring_Biomass_with_GEDI_l4.ipynb)
 
-|- Module_IV_ZZZZZZZ.ipynb
+|- Module 3 YYYYYY.ipynb
+
+|- Module 4 ZZZZZZZ.ipynb
