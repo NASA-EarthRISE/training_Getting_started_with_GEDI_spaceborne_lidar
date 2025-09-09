@@ -5,7 +5,7 @@ url: "https://servir.github.io" # the base hostname & protocol for your site, e.
 logo: "/images/nasa-logo-web.png"
 
 remote_theme: just-the-docs/just-the-docs
-$body-background-color: $green-000
+$body-background-color: $green-000;
 $text-color: $grey-dk-200; // Dark grey text
 $link-color: $green-300;
 
