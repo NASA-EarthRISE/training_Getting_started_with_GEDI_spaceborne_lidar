@@ -5,6 +5,8 @@ url: "https://servir.github.io" # the base hostname & protocol for your site, e.
 logo: "/images/nasa-logo-web.png"
 
 remote_theme: just-the-docs/just-the-docs
+color_scheme: foo
+
 
 # Aux links for the upper right navigation
 aux_links:
