@@ -1,8 +1,5 @@
 // assets/css/custom.scss
 
-// Import Just the Docs defaults first
-@import "just-the-docs";
-
 // ----------------------------
 // NASA EarthRISE custom theme
 // ----------------------------
@@ -20,6 +17,9 @@ $heading-color: #1b1b1b;
 
 // Custom accent (green from GEDI EarthRISE branding)
 $accent-color: #78BE20;
+
+// Import Just the Docs defaults first
+@import "just-the-docs";
 
 // Update components
 .navbar {
