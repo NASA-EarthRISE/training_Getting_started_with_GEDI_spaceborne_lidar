@@ -1,0 +1,41 @@
+// assets/css/custom.scss
+
+// Import Just the Docs defaults first
+@import "just-the-docs";
+
+// ----------------------------
+// NASA EarthRISE custom theme
+// ----------------------------
+
+// Background + text
+$body-background-color: #f8f9f9; // very light grey
+$text-color: #1b1b1b; // near-black text
+
+// Links
+$link-color: #0072ce; // NASA blue
+$link-hover-color: darken($link-color, 10%);
+
+// Headings
+$heading-color: #1b1b1b;
+
+// Custom accent (green from GEDI EarthRISE branding)
+$accent-color: #78BE20;
+
+// Update components
+.navbar {
+  background-color: $accent-color;
+  a {
+    color: #fff !important;
+    &:hover {
+      color: lighten(#fff, 15%) !important;
+    }
+  }
+}
+
+.site-footer {
+  background-color: #1b1b1b;
+  color: #fff;
+  a {
+    color: $link-color !important;
+  }
+}
