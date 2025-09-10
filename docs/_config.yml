@@ -2,7 +2,7 @@ title: Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications
 description: A Github page collecting foundational lidar educational materials and application examples with tutorials for exploration.
 baseurl: "/Explore_GEDI_EarthRISE_Training" # the subpath of your site, e.g. /blog
 url: "https://uah-lab-for-applied-science.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "{{ site.baseurl }}/images/nasa-logo-web.png"
+logo: "/images/nasa-logo-web.png"
 
 remote_theme: just-the-docs/just-the-docs
 
