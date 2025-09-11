@@ -1,0 +1,477 @@
+﻿//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// This GEE script performs forest AGB mapping by fusing GEDI footprint-base AGB, predicted by
+// AGB model calibrated wiith field and ALS data, and other satellite data through ML approach. 
+// Input data:
+//    1. Response Variable: 'agb_ju' in csv. 
+//    2. Predictor variables: CCDC coefficients and synthetic images, DEM and SLOPE derived from Copernicus DEM GLO-30.
+// ML model: Random Forest
+// Validation: K-fold cross validation
+// Output data: Predicted AGB image, Predicted AGB image for Year 2 and Change Image
+// Study Area: Acre, Brazil
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//// ASSETS
+var geometry = 
+    /* color: #d63000 */
+    /* shown: false */
+    /* displayProperties: [
+      {
+        "type": "rectangle"
+      }
+    ] */
+    ee.Geometry.Polygon(
+        [[[-69.54901562444957, -9.600885840906217],
+          [-69.54901562444957, -10.809161697672726],
+          [-67.93951855413707, -10.809161697672726],
+          [-67.93951855413707, -9.600885840906217]]], null, false),
+    image = ee.Image("users/izayanumata/SWAMZ/CCDC2_bands_CM_2010_2024_grid"),
+    agb_ju = ee.FeatureCollection("projects/ee-izayanumata/assets/ECM/gee_agb_ju");
+
+
+
+
+//Map.setOptions('satellite')  
+Map.setCenter(-70.300, -9.00)
+
+
+// Setting up parameters: /////////////////////////////////////////////////////////////////////////////////////////////
+// For CCDC
+var inputDate = '2019-07-30' // CCDC target date/year for model development
+
+
+var changeStart = '2000-01-01' //CCDC changeStart
+var changeEnd = '2024-12-31'   //CCDC changeEnd
+
+
+var inputDate_Y2 = '2018-07-30' // date for Year 2
+
+
+// Output file names
+var fname = 'GEE_2019_AGB_CCDC';
+var fname2 = 'GEE_2018b_AGB_CCDC';
+var fname3 = 'GEE_2018_2019_AGB_Change'
+
+
+// Preparing input data: //////////////////////////////////////////////////////////////////////////////////////////////
+// 1.1. AGB data. Converting point vector data into Raster.
+var agb = ee.FeatureCollection(agb_ju).filterBounds(geometry);
+
+
+// Convert GEDI agb footprint vector data into a raster image. 
+// This facilitates the process of data sampling, eg., capture spectral values of pixels 
+// from other images co-located with GEDI footprints.
+var agb_r = agb.reduceToImage({
+  properties:['AGB'],
+  reducer:ee.Reducer.first(),
+});
+
+
+// Reproject raster layer and rename the variable.
+agb_r = agb_r.reproject({
+  crs: 'EPSG:4326',
+  scale: 30
+}).rename('AGB')
+
+
+//print('agb_r', agb_r)
+//Map.addLayer(agb_r, {min:0, max:500, plette:['blue', 'green', 'red']}, 'Point Raster');
+
+
+// 1.2. CCDC - setting up and running /////////////////////////////////////////////////////////////////////////////////////
+var utils = require('users/parevalo_bu/gee-ccdc-tools:ccdcUtilities/api')
+var clip = geometry;
+
+
+// input ccdc data was prepared pior to this course.
+var ccdc = image; 
+//print('ccdc', ccdc)
+var dateParams = {inputFormat: 3, inputDate: inputDate, outputFormat: 1}
+var formattedDate = utils.Dates.convertDate(dateParams)
+
+
+// Spectral band names. This list contains all possible bands in this dataset
+var BANDS = ['GREEN','RED','NIR', 'SWIR1', 'SWIR2']
+
+
+// Names of the temporal segments
+var SEGS = ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10"]
+
+
+// Obtain CCDC results in 'regular' ee.Image format
+var ccdImage = utils.CCDC.buildCcdImage(ccdc, SEGS.length, BANDS)
+
+
+// Define bands to select.
+var SELECT_BANDS = ['GREEN','RED','NIR', 'SWIR1', 'SWIR2']
+
+
+// Define coefficients to select. This list contains all possible segments
+var SELECT_COEFS = ["INTP", "SLP", "COS", "SIN", "COS2", "SIN2", "COS3", "SIN3", "RMSE"]
+
+
+// Obtain coefficients
+var coefs = utils.CCDC.getMultiCoefs(ccdImage, formattedDate, SELECT_BANDS, SELECT_COEFS, true, SEGS, 'after')
+
+
+// Bands to  get surface reflectance for
+var SUB_BANDS = ['GREEN', 'RED', 'NIR', 'SWIR1', 'SWIR2']
+
+
+// Obtain synthetic image
+var ccdSyn = utils.CCDC.getMultiSynthetic(ccdImage, formattedDate, 1, SELECT_BANDS, SEGS)
+
+
+//1.2.1. CCDC run for Year 2 /////////////////////////////
+var dateParams_Y2 = {inputFormat: 3, inputDate: inputDate_Y2, outputFormat: 1}
+var formattedDate_Y2 = utils.Dates.convertDate(dateParams_Y2)
+
+
+// Obtain coefficients
+var coefs_Y2 = utils.CCDC.getMultiCoefs(ccdImage, formattedDate_Y2, SELECT_BANDS, SELECT_COEFS, true, SEGS, 'after')
+//print('coefs', coefs);
+
+
+// Obtain synthetic image
+var ccdSyn_Y2 = utils.CCDC.getMultiSynthetic(ccdImage, formattedDate_Y2, 1, SELECT_BANDS, SEGS)
+
+
+
+
+// 1.3. Copernicus GLO-30 DEM //////////////////////////////////////////////////////////////////////////////////////////////
+var glo30 = ee.ImageCollection('COPERNICUS/DEM/GLO30');
+var glo30Filtered = glo30.filter(ee.Filter.bounds(clip)).select('DEM');
+
+
+// Extract the projection
+var demProj = glo30Filtered.first().select(0).projection();
+
+
+// The dataset consists of individual images
+// Create a mosaic and set the projection
+var dem = glo30Filtered.mosaic().rename('dem')
+  .setDefaultProjection(demProj);
+  
+var slope = ee.Terrain.slope(dem);
+var aspect = ee.Terrain.aspect(dem);
+
+
+// 1.4. Combining all data and define predictors and response variables ////////////////////////////////////////////////////////////
+var combined = ccdSyn.addBands(coefs).addBands(dem).addBands(slope).addBands(agb_r);
+print('combined', combined);
+
+
+//data for Y2
+var combined_Y2 = ccdSyn_Y2.addBands(coefs_Y2).addBands(dem).addBands(slope); 
+
+
+var predictors = combined.bandNames();
+//predictors = predictors.remove('AGB');
+predictors = predictors.remove(['GREEN_COS3', 'GREEN_SIN2', 'GREEN_SIN3'])
+var predicted = 'AGB';
+var predictedImage = combined.select([predicted]);
+
+
+// 2. AGB Modeling  //////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2.1. Preparing training and validation datasets. ///////////////////////////////////////////////////////////////////////////////
+var classMask = predictedImage.mask().toInt().rename('class');
+
+
+// Set classPoints to [0, numSamples]. This will give us 0 points for class 0 (masked areas)
+// and numSample points for class 1 (non-masked areas).
+
+
+// Extract samples from "combined data" for ML-based AGB prediction modeling.
+// Note that GEE can not handle sample size > 1000 samples as training data.
+// 1200 samples will be split into training and validation.
+
+
+var sample = combined.addBands(classMask)
+  .stratifiedSample({
+    numPoints: 1200, //numSamples,
+    classBand: 'class',
+    region: geometry,
+    scale: 30,
+    classValues: [0, 1],
+    classPoints: [0, 1200],  
+    dropNulls: true,
+    tileScale: 16,
+    geometries: true,
+});
+
+
+print('sample', sample);
+
+
+// Select randomly samples for trainig and validation.
+sample = sample.randomColumn();
+var training = sample.filter('random <= 0.8');
+var validation = sample.filter('random > 0.8');
+
+
+//print('training', training);
+//print('validation', validation);
+
+
+// 2.2 Train a Regression Model //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Use the RandomForest classifier and set the 
+// output mode to REGRESSION
+
+
+var model = ee.Classifier.smileRandomForest(100)
+  .setOutputMode('REGRESSION')
+  .train({
+    features: training,
+    classProperty: predicted,
+    inputProperties: predictors
+  });
+
+
+// Print RF decision trees
+print('Results of trained model - model', model.explain());
+
+
+// Get variable importance for predictors
+var f_importance=model.explain().get('importance');
+f_importance = ee.Dictionary(f_importance);
+
+
+var features = f_importance.keys();
+
+
+var values = f_importance.values();
+var totalImportance = values.reduce(ee.Reducer.sum());
+var percentageImportance = values.map(function(value){
+    return ee.Number(value).divide(totalImportance).multiply(100).format('%.2f');
+})
+
+
+
+
+//var varImp_list = percentageImportance.zip(features);
+var varImp_list = features.zip(percentageImportance);
+print('varImp_list', varImp_list);
+
+
+// 2.3. Apply RF model to input data for AGB mapping /////////////////////////////////////////////////////////////////////////////
+var outputImage = combined.classify({
+  classifier: model,
+});
+Map.addLayer(outputImage.clip(clip), {min:0, max:400}, 'Predicted AGBD', true);
+
+
+// Y2
+var outputImage_Y2 = combined_Y2.classify({
+  classifier: model,
+});
+Map.addLayer(outputImage_Y2, {min:0, max:400}, 'Predicted AGBD_Y2', true);
+
+
+//Change Image
+var changeImage = outputImage.subtract(outputImage_Y2);
+
+
+var visParams = {
+      min: -150,
+      max: 100,
+      palette: ['darkblue', 'blue', 'lightgreen', 'green', 'yellow'] // Example: for a vegetation index
+    };
+Map.addLayer(changeImage, visParams, 'Change', true);
+
+
+
+
+// Get model's predictions for validation data //////////////////////////////////////////////////////////////////////////////
+var predicted_val = validation.classify({
+  classifier: model,
+  //outputName: 'agb_predicted0'
+});
+//print('predicted_val', predicted_val)
+
+
+// Create a plot of observed vs. predicted values ///////////////////////////////////////////////////////////////////////////
+var chart = ui.Chart.feature.byFeature({
+  features: predicted_val,
+  xProperty: 'AGB',
+  yProperties: 'classification',
+}).setChartType('ScatterChart')
+  .setOptions({
+    title: 'Aboveground Biomass Density (Mg/Ha)',
+    dataOpacity: 0.8,
+    hAxis: {'title': 'Observed'},
+    vAxis: {'title': 'Predicted'},
+    legend: {position: 'right'},
+    series: {
+      0: {
+        visibleInLegend: false,
+        color: '#525252',
+        pointSize: 3,
+        pointShape: 'triangle',
+      },
+    },
+    trendlines: {
+      0: {
+        type: 'linear', 
+        color: 'black', 
+        lineWidth: 1,
+        pointSize: 0,
+        labelInLegend: 'Linear Fit',
+        visibleInLegend: true,
+        showR2: true
+      }
+    },
+    chartArea: {left: 100, bottom:100, width:'50%'},
+
+
+});
+print(chart);
+
+
+// 2.5. Cross=validation (cv) of RF models /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Users define number of folds for cv.
+var numFolds = 10;
+var results_rmse = ee.List([]); // To store rmse for each fold run
+var results_mae = ee.List([]);  // To store rmse for each fold run
+var results_r2 = ee.List([]);   // To store rmse for each fold run
+//var foldMetrics = ee.List([]);
+
+
+// Function to calculate squared differences that are used in RMSE and MAE calculation.
+function matrics(feature) {
+   var actual = ee.Number(feature.get('AGB'));
+   var prediction = ee.Number(feature.get('classification'));
+   //var mean_observed = feature.aggregate_mean('AGB'); // for R2 
+   //var mean_actual = actual.aggregate_mean('AGB');
+   var absolute_error = actual.subtract(prediction).abs(); // for MAE
+   var squaredDifference = actual.subtract(prediction).pow(2); // RMSE
+   //var residual_squared = ee.Number(actual).subtract(prediction).pow(2); // for R2
+   //var total_squared = ee.Number(actual).subtract(mean_observed).pow(2); // for R2
+   return feature.set({
+     'squaredDifference': squaredDifference,
+     'absolute_error': absolute_error,
+   });
+}
+
+
+// Function to calculate residual and total squared for R2
+function r2_components(feature){
+  var actual = feature.get('AGB');
+  var prediction = feature.get('classification');
+  var residual_squared = ee.Number(actual).subtract(prediction).pow(2);
+  var total_squared = ee.Number(actual).subtract(mean_actual).pow(2);
+  return feature.set({
+    'residual_squared': residual_squared,
+    'total_squared': total_squared
+  });
+  }
+
+
+// For loop for K-fold Cross Validation //
+for (var i = 0; i < numFolds; i++) {
+  
+  var lowerBound = ee.Number(i).divide(numFolds);
+  var upperBound = ee.Number(i + 1).divide(numFolds);
+
+
+  // Split data into training and validation sets
+  var validationSet = sample.filter(ee.Filter.and(
+    ee.Filter.gte('random', lowerBound),
+    ee.Filter.lt('random', upperBound)
+  ));
+  var trainingSet = sample.filter(ee.Filter.or(
+    ee.Filter.lt('random', lowerBound),
+    ee.Filter.gte('random', upperBound)
+  ));
+
+
+  // Train the Random Forest Regressor
+  var trainedModel = ee.Classifier.smileRandomForest(100)
+  .setOutputMode('REGRESSION')
+  .train({
+    features: trainingSet,
+    classProperty: predicted,
+    inputProperties: predictors // List of feature names
+  });
+
+
+  // Make predictions on the validation set
+  var predicted_cv = validationSet.classify(trainedModel);
+  //print('predicted_cv', predicted_cv);
+  
+  // Calculate RMSE, MAE and R2
+  var stat_matrics = predicted_cv.map(matrics); 
+  // RMSE
+  var meanSquaredResiduals = stat_matrics.aggregate_mean('squaredDifference');
+  var rmse = meanSquaredResiduals.sqrt();
+  //print('rmse', rmse);
+   results_rmse = results_rmse.add(rmse);
+  
+  // MAE
+  var mae_f = stat_matrics.aggregate_mean('absolute_error');
+  //print('mae_f', mae_f);
+  results_mae = results_mae.add(mae_f);
+  
+  //R2
+  var mean_actual = predicted_cv.aggregate_mean('AGB');
+  var r2_comp= predicted_cv.map(r2_components)
+  var rss = r2_comp.aggregate_sum('residual_squared');
+  var tss = r2_comp.aggregate_sum('total_squared');
+  var r2 = ee.Number(1).subtract(rss.divide(tss));
+  results_r2 = results_r2.add(r2);
+    
+}
+
+
+//print('results_rmse', results_rmse);
+//print('results_mae', results_mae);
+//print('results_r2', results_r2);
+
+
+// Print the average RMSE
+print('Average RMSE:', results_rmse.reduce(ee.Reducer.mean()));
+print('Average MAE:', results_mae.reduce(ee.Reducer.mean()));
+print('Average R2:', results_r2.reduce(ee.Reducer.mean()));
+
+
+
+
+// 3. Export the image with predicted values /////////////////////////////////////////////////////////////////////////////////
+// Replace this with your asset folder
+// The folder must exist before exporting
+
+
+//var exportPath = ''
+
+
+Export.image.toDrive({
+  image: outputImage,
+  description: fname,
+  //assetId: exportPath + 'predicted_agbd',
+  region: geometry,
+  scale: 100,
+  maxPixels: 1e10
+});
+
+
+Export.image.toDrive({
+  image: outputImage_Y2,
+  description: fname2,
+  //assetId: exportPath + 'predicted_agbd',
+  region: clip,
+  scale: 100,
+  maxPixels: 1e10
+});
+
+
+Export.image.toDrive({
+  image: changeImage,
+  description: fname3,
+  //assetId: exportPath + 'predicted_agbd',
+  region: clip,
+  scale: 100,
+  maxPixels: 1e10
+});
