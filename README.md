@@ -16,10 +16,10 @@ Tutorials for Each Module:
 
 |- Module 1 XXXXXXX.ipynb
 
-|- Module 2 [Exploring_Forest_Structure_with_GEDI_L2B.ipynb](https://github.com/SERVIR/Explore_GEDI_EarthRISE_Training/blob/main/Exploring_Forest_Structure_with_GEDI_L2B.ipynb)
+|- Module 2 [Exploring_Forest_Structure_with_GEDI_L2B.ipynb]()
 
-|------- Module 2.1 [L2B_PAI_GEDI_LAS_Comp_Sewanee.ipynb](https://github.com/SERVIR/Explore_GEDI_EarthRISE_Training/blob/main/L2B_PAI_GEDI_LAS_Comp_Sewanee.ipynb)
+|------- Module 2.1 [L2B_PAI_GEDI_LAS_Comp_Sewanee.ipynb]()
 
-|- Module 3 [Exploring_Biomass_with_GEDI_l4.ipynb](https://github.com/SERVIR/Explore_GEDI_EarthRISE_Training/blob/main/Exploring_Biomass_with_GEDI_l4.ipynb)
+|- Module 3 [Exploring_Biomass_with_GEDI_l4.ipynb]()
 
 |- Module 4 ZZZZZZZ.ipynb
