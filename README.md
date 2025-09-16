@@ -4,7 +4,7 @@
 [![image](https://img.shields.io/conda/vn/conda-forge/servir-aces.svg)](https://anaconda.org/conda-forge/servir-aces)
 [![SERVIR: Global](https://img.shields.io/badge/SERVIR-Global-green)](https://servirglobal.net)
 
-# Earth Hub & ARSET GEDI  Training
+# Getting Started with Global Ecosystem Dyanmics Investigation (GEDI) spaceborne lidar - Training
 
 Overview text here
 XX
