@@ -7,7 +7,7 @@ logo: "/images/nasa-logo-web.png"
 remote_theme: just-the-docs/just-the-docs
 
 just_the_docs:
-  css: "assets/css/custom.scss"
+  css: "assets/css/custom.css"
 
 # Aux links for the upper right navigation
 aux_links:
