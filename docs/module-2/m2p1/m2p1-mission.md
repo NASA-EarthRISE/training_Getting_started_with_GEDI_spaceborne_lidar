@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m2p1-mission"
-parent:  "Mod 2 Part 1"
+title: Why GEDI?
+parent:  Lasering in on the GEDI Mission
+permalink: /why-gedi
 nav_order: 1
 ---
 ## Southern Alabama Prescribed Burn AOI

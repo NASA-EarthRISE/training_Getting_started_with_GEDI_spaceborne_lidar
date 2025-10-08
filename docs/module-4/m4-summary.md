@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m4-summary"
-parent: "Module 4"
+title: Summary
+parent: Localized Forest Biomass Estimation
+permalink: /module-4-summary
 nav_order: 3
 ---
 

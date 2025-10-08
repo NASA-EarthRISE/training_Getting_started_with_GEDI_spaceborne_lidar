@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m4-tutorial"
-parent: "Module 4"
+title: Calibrating Field, Airborne and Spaceborne Lidar
+parent: Localized Forest Biomass Estimation
+permalink: /calibrate-spaceborne-lidar
 nav_order: 2
 ---
 

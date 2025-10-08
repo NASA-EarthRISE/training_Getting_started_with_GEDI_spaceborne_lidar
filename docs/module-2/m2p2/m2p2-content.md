@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m2p2-content"
-parent:  "Mod 2 Part 2"
+title: GEDI’s Elevation and Relative Height Metrics Explained
+parent: From Ground to Canopy
+permalink: /elevation-height-metrics
 nav_order: 1
 ---
 ## Southern Alabama Prescribed Burn AOI

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m2p3-content"
-parent:  "Mod 2 Part 3"
+title: Vegetation Structural Insights From GEDI
+parent: From Canopy Layers to Vertical Profiles
+permalink: /vegetation-structure-merics
 nav_order: 1
 ---
 ## Southern Alabama Prescribed Burn AOI

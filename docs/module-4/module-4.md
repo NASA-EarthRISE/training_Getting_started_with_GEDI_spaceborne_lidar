@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Module 4"
-permalink: /module-4
+title: Localized Forest Biomass Estimation
+permalink: /local-biomass-estimation-overview
 has_children: True
 nav_order: 7
 ---

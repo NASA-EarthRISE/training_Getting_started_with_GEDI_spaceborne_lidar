@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Module 2"
-permalink: /module-2
+title: A Deep Dive into GEDI
+permalink: /deep-dive-into-GEDI
 has_children: True
 nav_order: 5
 ---

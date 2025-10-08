@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "m2p1-fundamentals"
-parent:  "Mod 2 Part 1"
-nav_order: 3
+title: The Building Blocks of Analysis
+parent:  Lasering in on the GEDI Mission
+permalink: /gedi-fundamentals
+nav_order: 4
 ---
 ## Southern Alabama Prescribed Burn AOI
 

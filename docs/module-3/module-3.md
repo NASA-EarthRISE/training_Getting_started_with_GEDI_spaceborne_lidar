@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Module 3"
-permalink: /module-3
+title: Biomass Change with OBIWAN
+permalink: /module-3-overview
 has_children: True
 nav_order: 6
 ---

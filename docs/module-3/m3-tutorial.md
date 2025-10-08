@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m3-tutorial"
-parent: "Module 3"
+title: Customize OBIWAN through its API
+parent: Biomass Change with OBIWAN
+permalink: /tutorial-obiwan-api
 nav_order: 2
 ---
 

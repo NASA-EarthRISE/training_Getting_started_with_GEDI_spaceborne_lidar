@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m2p4-tutorial"
-parent:  "Mod 2 Part 4"
+title: From Download to Discovery: Biomass Estimations Tutorial
+parent: Above Ground Biomass with GEDI
+permalink: /tutorial-biomass
 nav_order: 2
 ---
 ## Southern Alabama Prescribed Burn AOI

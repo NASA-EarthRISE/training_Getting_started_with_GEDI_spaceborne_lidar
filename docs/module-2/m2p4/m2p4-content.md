@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m2p4-content"
-parent:  "Mod 2 Part 4"
+title: GEDI’s Biomass Estimation Approach
+parent: Above Ground Biomass with GEDI
+permalink: /biomass-estimations
 nav_order: 1
 ---
 ## Southern Alabama Prescribed Burn AOI

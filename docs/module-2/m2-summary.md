@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m2-summary"
-parent: "Module 2"
+title: Summary
+parent: A Deep Dive into GEDI
+permalink: /module-2-summary
 nav_order: 5
 ---
 

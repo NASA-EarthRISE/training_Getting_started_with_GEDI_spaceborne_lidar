@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m3-summary"
-parent: "Module 3"
+title: Summary
+parent: Biomass Change with OBIWAN
+permalink: /module-3-summary
 nav_order: 3
 ---
 

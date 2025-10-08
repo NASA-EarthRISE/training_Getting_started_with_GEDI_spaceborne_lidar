@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Mod 1 Tutorial"
-parent: "Module 1"
-has_children: False
+title: "Practical Applications of GEDI Full Waveform Data"
+parent: Introduction to Full Waveform Lidar
+permalink: /practical-applications-of-waveform-lidar
 nav_order: 2
 ---
 

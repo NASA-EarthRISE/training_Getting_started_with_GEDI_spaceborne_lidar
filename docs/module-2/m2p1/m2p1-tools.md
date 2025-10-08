@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Navigating the GEDI Ecosystem
-parent: Lasering in on the GEDI Mission
-permalink: /gedi-data-products
-nav_order: 2
+title: Tools for Navigating the GEDI Ecosystem
+parent:  Lasering in on the GEDI Mission
+permalink: /data-tools
+nav_order: 3
 ---
 
 # Part 2 - Time Series Change Detection with LandTrendr

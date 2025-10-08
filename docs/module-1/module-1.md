@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Module 1"
-permalink: /module-1
+title: Introduction to Full Waveform Lidar
+permalink: /intro-to-waveform-lidar
 has_children: True
 nav_order: 4
 ---

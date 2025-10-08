@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Suggested Prior Knowledge"
+title: Suggested Prior Knowledge
+permalink: /prior-knowledge
 nav_order: 2
 ---
 

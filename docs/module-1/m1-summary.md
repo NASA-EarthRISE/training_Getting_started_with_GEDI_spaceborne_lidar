@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Mod 1 Summary"
-parent: "Module 1"
+title: Summary
+parent: Introduction to Full Waveform Lidar
+permalink: /module-1-summary
 nav_order: 3
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m2p3-tutorial"
-parent:  "Mod 2 Part 3"
+title: From Download to Discovery: Vegetation Structure Tutorial
+parent: From Canopy Layers to Vertical Profiles
+permalink: /tutorial-vegetation-structure
 nav_order: 2
 ---
 ## Southern Alabama Prescribed Burn AOI

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Mod 1 content"
-parent: "Module 1"
-has_children: False
+title: Fundamentals of Lidar and GEDI Full Waveform Lidar
+parent: Introduction to Full Waveform Lidar
+permalink: /fundamentals-waveform-lidar
 nav_order: 1
 ---
 

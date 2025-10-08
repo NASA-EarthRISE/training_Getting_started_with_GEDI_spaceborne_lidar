@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m4-content"
-parent: "Module 4"
+title: Forest Biomass Estimation Using Data from Field, Airborne, and Spaceborne Lidar
+parent: Localized Forest Biomass Estimation
+permalink: /local-biomass-estimation
 nav_order: 1
 ---
 

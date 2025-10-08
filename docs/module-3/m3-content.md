@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "m3-content"
-parent: "Module 3"
+title: From Estimating Biomass to Biomass Change with OBIWAN
+parent: Biomass Change with OBIWAN
+permalink: /obiwan-biomass-and-change
 nav_order: 1
 ---
 

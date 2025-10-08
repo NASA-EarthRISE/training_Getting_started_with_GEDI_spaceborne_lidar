@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "m2p1-applications"
-parent:  "Mod 2 Part 1"
-nav_order: 4
+title: How GEDI Informs Ecosystem Studies
+parent:  Lasering in on the GEDI Mission
+permalink: /gedi-applications
+nav_order: 5
 ---
 ## Southern Alabama Prescribed Burn AOI
 
