@@ -1,0 +1,78 @@
+/* assets/css/custom.css */
+
+/* ----------------------------
+   NASA EarthRISE custom theme
+   ---------------------------- */
+
+/* Note: CSS cannot import Just the Docs styles directly like SCSS can.
+   The theme will load its default styles automatically. */
+
+/* Root variables for colors */
+:root {
+  --body-background-color: #f8f9f9; /* very light grey */
+  --text-color: #1b1b1b; /* near-black text */
+  --link-color: #0072ce; /* NASA blue */
+  --link-hover-color: #005ba1; /* darkened NASA blue */
+  --heading-color: #1b1b1b;
+  --accent-color: #78BE20; /* green from GEDI EarthRISE branding */
+}
+
+/* Apply background and text colors */
+body {
+  background-color: var(--body-background-color);
+  color: var(--text-color);
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+/* Update navbar component */
+.navbar {
+  background-color: var(--accent-color) !important;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  color: #f2f2f2 !important; /* lightened white */
+}
+
+/* Update footer component */
+.site-footer {
+  background-color: #1b1b1b !important;
+  color: #fff !important;
+}
+
+.site-footer a {
+  color: var(--link-color) !important;
+}
+
+/* Responsive video styles */
+.responsive-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
