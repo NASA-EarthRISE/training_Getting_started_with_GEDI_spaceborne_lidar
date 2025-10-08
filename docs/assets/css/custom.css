@@ -60,6 +60,11 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--link-color) !important;
 }
 
+/* Update side-bar component */
+.side-bar {
+    background-color: var(--body-background-color);
+}
+
 /* Responsive video styles */
 .responsive-video {
   position: relative;
