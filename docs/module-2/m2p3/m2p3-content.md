@@ -2,7 +2,7 @@
 layout: page
 title: Vegetation Structural Insights From GEDI
 parent: From Canopy Layers to Vertical Profiles
-permalink: /vegetation-structure-merics
+permalink: /vegetation-structure-metrics
 nav_order: 1
 ---
 ## Southern Alabama Prescribed Burn AOI

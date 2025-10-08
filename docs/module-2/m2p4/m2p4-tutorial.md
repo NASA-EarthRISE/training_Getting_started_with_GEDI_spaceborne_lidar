@@ -1,6 +1,6 @@
 ---
 layout: page
-title: From Download to Discovery: Biomass Estimations Tutorial
+title: Biomass Estimations Tutorial
 parent: Above Ground Biomass with GEDI
 permalink: /tutorial-biomass
 nav_order: 2
