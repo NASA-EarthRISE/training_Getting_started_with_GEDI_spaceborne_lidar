@@ -125,6 +125,12 @@ li {
   font-weight: 600;
 }
 
+/* Active accent bar */
+.nav-list .nav-list-item.active > a::before,
+.nav-list .nav-list-item a[aria-current="page"]::before {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
 /* Active main section title (parent of open subpages) */
 .nav-list > .nav-list-item.active > a {
   color: var(--link-hover-color) !important;
