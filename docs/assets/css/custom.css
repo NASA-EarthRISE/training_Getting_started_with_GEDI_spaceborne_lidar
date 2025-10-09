@@ -10,7 +10,7 @@
 /* Root variables for colors */
 :root {
   --body-background-color: #221d1f;
-  --text-color: #221d1f;
+  --text-color: #ffd51f;
   --link-color: #3ca97d;
   --link-hover-color: #1a9247;
   --heading-color: #ffd51f;
@@ -27,7 +27,7 @@
 .site-header,
 .site-header-nav {
   background-color: #221d1f;   /* 🔧 nav bar background color */
-  color: #221d1f;              /* 🔧 nav text color */
+  color: #ffd51f;              /* 🔧 nav text color */
 }
 
 /* Site title (left side link) */
