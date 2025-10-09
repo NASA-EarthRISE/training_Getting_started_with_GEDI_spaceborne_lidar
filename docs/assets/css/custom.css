@@ -121,14 +121,14 @@ li {
 .nav-list .nav-list-item.active > a,
 .nav-list .nav-list-item a[aria-current="page"] {
   color: var(--link-hover-color) !important;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.01);
   font-weight: 600;
 }
 
 /* Active accent bar */
 .nav-list .nav-list-item.active > a::before,
 .nav-list .nav-list-item a[aria-current="page"]::before {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.01) !important;
 }
 
 /* Active main section title (parent of open subpages) */
@@ -160,13 +160,6 @@ li {
   color: var(--link-hover-color) !important;
 }
 
-/* Footer content text (excluding links) */
-.site-footer p,
-.site-footer span,
-.site-footer div:not(a) {
-  color: #ffffff !important;
-}
-
 /* ─────────────────────────────── */
 /* Content area */
 /* ─────────────────────────────── */
@@ -179,7 +172,7 @@ li {
 
 /* Code blocks */
 code, pre {
-  background-color: #2a2527;
+  background-color: #221d1f;
   color: var(--text-color);
   border: 1px solid var(--border-color);
 }
