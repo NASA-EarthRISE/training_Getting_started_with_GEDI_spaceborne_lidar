@@ -10,7 +10,7 @@
 /* Root variables for colors */
 :root {
   --body-background-color: #221d1f;
-  --text-color: #ffd51f;
+  --text-color: #221d1f;
   --link-color: #3ca97d;
   --link-hover-color: #1a9247;
   --heading-color: #ffd51f;
@@ -26,8 +26,8 @@
 /* Navigation bar container */
 .site-header,
 .site-header-nav {
-  background-color: #1a1a1a;   /* 🔧 nav bar background color */
-  color: #ffffff;              /* 🔧 nav text color */
+  background-color: #221d1f;   /* 🔧 nav bar background color */
+  color: #221d1f;              /* 🔧 nav text color */
 }
 
 /* Site title (left side link) */
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content {
   background-color: var(--body-background-color);
-  border-left: 1px solid var(--border-color);
+  border-left: 1px solid var(--body-background-color);
 }
 
 .nav-list,
