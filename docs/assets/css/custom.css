@@ -15,6 +15,12 @@
   --link-hover-color: #1a9247;
   --heading-color: #ffd51f;
   --accent-color: #e13a3e;
+  --border-color: #cccccc;
+  --feedback-color: #ff9800;
+  --sidebar-color: #e3f2fd;
+  --code-background-color: #fafafa;
+  --button-primary-color: #4caf50;
+  --button-primary-hover-color: #388e3c;
 }
 
 /* Apply background and text colors */
@@ -47,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover {
-  color: #3ca97d !important; /* lightened white */
+  color: #3ca97d !important; 
 }
 
 /* Update footer component */
