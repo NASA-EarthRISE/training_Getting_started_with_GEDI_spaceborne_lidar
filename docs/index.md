@@ -1,8 +1,8 @@
-\---  
-layout: page  
-title: Overview  
-nav\_order: 1  
-\---
+-–
+layout: page
+title: Overview
+nav_order: 1
+-–
 
 # [**Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications**](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/tree/main)
 
@@ -60,55 +60,55 @@ This training series gathers resources and examples of GEDI applications to help
 # **Co-developers, Contributors, & Acknowledgements**
 
 **Co-developers & Contributors:**   
-\*Stephanie Jiménez1, 2  
-\*Timothy Mayer1, 2  
-\*Naiara Pinto3  
-\*Savannah S Cooley9  
-\*Sean Healey4, 18  
-\*Christine Evans1, 2   
-Zhiqiang Yang9  
-Lucas Johnson11  
-\*Diana West1, 2  
-\*Izaya Numata5  
-Nadeem Fareed12  
-Marcus d’Oliveira13  
-Willian Antonio Melo14  
-Sonaira Souza Silva14  
-Sidney Novoa15  
-Karis Tenneson16  
-Andrea Nicolau16  
-Mark Cochrane17  
-\*Sativa Cruz9  
-\*Kevin Horn1  
-\*Vanesa Martin Arias1, 2  
-\*Kaitlin Walker1, 2  
-\*Jacob Abramowitz1, 2  
-Lena Pransky1, 2  
-Meryl Kruskopf1, 2
+\*Stephanie Jiménez 1, 2  
+\*Timothy Mayer 1, 2  
+\*Naiara Pinto 3  
+\*Savannah S Cooley 9  
+\*Sean Healey 4, 18  
+\*Christine Evans 1, 2   
+Zhiqiang Yang 9  
+Lucas Johnson 11  
+\*Diana West 1, 2  
+\*Izaya Numata 5  
+Nadeem Fareed 12  
+Marcus d’Oliveira 13  
+Willian Antonio Melo 14  
+Sonaira Souza Silva 14  
+Sidney Novoa 15  
+Karis Tenneson 16  
+Andrea Nicolau 16  
+Mark Cochrane 17  
+\*Sativa Cruz 9  
+\*Kevin Horn 1  
+\*Vanesa Martin Arias 1, 2  
+\*Kaitlin Walker 1, 2  
+\*Jacob Abramowitz 1, 2  
+Lena Pransky 1, 2  
+Meryl Kruskopf 1, 2
 
 **Acknowledgements:**  
-Emil Cherrington1, 2  
-Kelsey Herndon1, 2  
-Robert Kennedy11  
-Michael Keller3, 18  
-Laura Duncanson6, 18  
-Andrew Neil Sagar6  
-Ralph Dubayah6, 18  
+Emil Cherrington 1, 2  
+Kelsey Herndon 1, 2  
+Robert Kennedy 11  
+Michael Keller 3, 18  
+Laura Duncanson 6, 18  
+Andrew Neil Sagar 6  
+Ralph Dubayah 6, 18  
 Eric Anderson1  
-Alexandre Goberna1, 19  
-Jake Ramthun1, 2  
-Micky Maganini1, 2  
-Phoebe Oduor1, 2  
-Sarah Cox1, 2  
-Kathleen Cutting20  
-Daniel Irwin1  
-Rodrigo Torres21  
-Sandra Terran21  
-Lorena Caiza21  
-Caroline Salomao22  
-Alvaro Paz23  
-Osmar Yupanqui15  
-Fernanda Lopez Ornelas16
+Alexandre Goberna 1, 19  
+Jake Ramthun 1, 2  
+Micky Maganini 1, 2  
+Phoebe Oduor 1, 2  
+Sarah Cox 1, 2  
+Kathleen Cutting 20  
+Daniel Irwin 1  
+Rodrigo Torres 21  
+Sandra Terran 21  
+Lorena Caiza 21  
+Caroline Salomao 22  
+Alvaro Paz 23  
+Osmar Yupanqui 15  
+Fernanda Lopez Ornelas 16
 
 \*Lead co-developers
 
@@ -144,39 +144,52 @@ The lesson content for each of the modules can be found in the tabs on the left 
 
 If you have any questions about the material, please submit a question below\! We are here to help.
 
-\[Ask a Question\](https://github.com/NASA-EarthRISE/training\_Getting\_started\_with\_GEDI\_spaceborne\_lidar/discussions){: .btn .btn-green }
+[Ask a Question](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/discussions){: .btn .btn-green }
 
 # **All Modules and Topics Overview**
 
 Overview of topics covered in each module, respective format(s), and any technical requirements are listed below. Additional prerequisites and background information will be detailed within each module. 
 
-| Module | Section | Topics | Format | Requirements |
-| ----- | :---: | ----- | ----- | ----- |
-|  **1** | **Module 1** introduces  lidar data, its physical principles, and its sensitivity to biophysical parameters, and explores several U.S.-based and global applications using different lidar sensors. Exercises will solidify participants’ understanding of waveform lidar capabilities in terrestrial applications. **Level:** introductory to intermediate |  |  |  |
-|  | **Introduction to GEDI Full Waveform Lidar for Terrestrial Applications** | Fundamentals of Lidar Remote Sensing | Recorded lecture | Video and audio viewing |
-|  |  | Full Waveform Lidar from the GEDI Mission | Recorded lecture | Video and audio viewing |
-|  | **Practical Applications with GEDI Full Waveform Data** | Tutorial *A comprehensive Python notebook for processing and analyzing NASA GEDI L1B (Global Ecosystem Dynamics Investigation Level 1B) full waveform LiDAR data using Google Colab* | Recorded demonstration and self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform \- Google Colab notebooks Github account |
-|  **2** | **Module 2** details the GEDI mission, its data products, and case study applications. Exploratory scripts provide starting points for participants to evaluate many of GEDI’s data products by incorporating recommended filtering and pre-processing strategies. **Level:** introductory to intermediate |  |  |  |
-|  | **Lasering in on the GEDI Mission** | Why GEDI?  | Self-paced lecture |  |
-|  |  | Navigating the GEDI Ecosystem |  |  |
-|  |  | Tools for Navigating GEDI |  |  |
-|  |  | The Building Block of Analysis |  |  |
-|  |  | How GEDI Information Ecosystem Studies |  |  |
-|  | **From Ground to Canopy** | GEDI’s Elevation and Relative Height Metrics Explained |  |  |
-|  | **From Canopy Layers to Vertical Profiles** | Vegetation Structural Insights From GEDI |  |  |
-|  | **From Download to Discovery: Accessing and Analyzing Vegetation Structure Metrics** | Tutorial *Exploring Forest Structure with GEDI L2B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform \- Google Colab notebooks Github account |
-|  | **From Discovery to Correlation: Comparing spaceborne and airborne lidar** | Tutorial *Comparing L2B PAI with high-resolution lidar in the Sewanee Domain, Tennessee* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform \- Google Colab notebooks Github account |
-|  | **Above Ground Biomass with GEDI** | GEDI’s Biomass Estimation Approach | Self-paced lecture |  |
-|  | **From Download to Discovery: Accessing and Analyzing Biomass Estimations** | Tutorial*Exploring Biomass with GEDI L4A and L4B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform \- Google Colab notebooks Github account |
-|  **3** | **Module 3** discusses downstream GEDI derived products for carbon and biomass monitoring with Online Biomass Inference using Waveforms and iNventory (OBIWAN) Application Programming Interface (API). Participants will learn how biomass products are derived and their advantages and limitations. This module shows participants how to create dashboards and reporting systems for any geography covering any period from 1985 to the present. **Level:** introductory to intermediate |  |  |  |
-|  | **From Estimating Biomass with GEDI to Estimating Biomass Change with OBIWAN API** | GEDI mission biomass estimation: theory and products | Recorded lecture | Video and audio viewing |
-|  |  | OBIWAN: estimating biomass change with GEDI and Landsat time series |  |  |
-|  | **Customize OBIWAN through its API** | Using the OBIWAN API in Alabama | Recorded demonstration of python and Google Earth Engine tutorials | Video and audio viewing Google account and Drive Github account *Optional* Google Earth Engine Account |
-|  **4** | **Module 4** will have advanced applications focused on GEDI derived products for monitoring forest disturbances and carbon dynamics. Dr. Izaya Numata (South Dakota State University) will present methods for forest biomass estimation using field, airborne, and satellite lidar (GEDI) data developed in Acre, Brazil. Participants will understand the advantages, limitations, and considerations for applying such methodology on their own. **Level:** Intermediate to advanced |  |  |  |
-|  | **Forest Biomass Estimation Using Data from Field, Airborne and Spaceborne Lidar** | Learn to develop local forest biomass model using field and remote sensing data and its application for AGB mapping | Self-paced lecture |  |
-|  | **Calibrating Field, Airborne and Spaceborne Lidar** | Exercise 1 GEDI waveform simulation with airborne lidar using rGEDI Exercise 2 Development of local AGB model with field AGB and simulated ALS Relative Height metrics in R Exercise 3 Above ground biomass mapping in Google Earth Engine Biomass change detection fusing lidar with the CCDC algorithm  | Self-paced RStudio and Google Earth Engine tutorials | Github account RStudio, RTools, rGEDI, and rGEDIsimulator package and program installations Google Earth Engine Account |
+**Module 1** introduces  lidar data, its physical principles, and its sensitivity to biophysical parameters, and explores several U.S.-based and global applications using different lidar sensors. Exercises will solidify participants’ understanding of waveform lidar capabilities in terrestrial applications. **Level:** introductory to intermediate.
 
-# 
+| Section | Topics | Format | Requirements |
+| :---: | ----- | ----- | ----- |
+| **Introduction to GEDI Full Waveform Lidar for Terrestrial Applications** | Fundamentals of Lidar Remote Sensing | Recorded lecture | Video and audio viewing |
+| **Introduction to GEDI Full Waveform Lidar for Terrestrial Applications** | Full Waveform Lidar from the GEDI Mission | Recorded lecture | Video and audio viewing |
+| **Practical Applications with GEDI Full Waveform Data** | Tutorial *A comprehensive Python notebook for processing and analyzing NASA GEDI L1B (Global Ecosystem Dynamics Investigation Level 1B) full waveform LiDAR data using Google Colab* | Recorded demonstration and self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
+
+**Module 2** details the GEDI mission, its data products, and case study applications. Exploratory scripts provide starting points for participants to evaluate many of GEDI’s data products by incorporating recommended filtering and pre-processing strategies. **Level:** introductory to intermediate.
+
+| Section | Topics | Format | Requirements |
+| :---: | ----- | ----- | ----- |
+| **Lasering in on the GEDI Mission** | Why GEDI?  | Self-paced lecture |  |
+| **Lasering in on the GEDI Mission** | Navigating the GEDI Ecosystem | Self-paced lecture |  |
+| **Lasering in on the GEDI Mission** | Tools for Navigating GEDI | Self-paced lecture |  |
+| **Lasering in on the GEDI Mission** | The Building Block of Analysis | Self-paced lecture |  |
+| **Lasering in on the GEDI Mission** | How GEDI Information Ecosystem Studies | Self-paced lecture |  |
+| **From Ground to Canopy** | GEDI’s Elevation and Relative Height Metrics Explained | Self-paced lecture |  |
+| **From Canopy Layers to Vertical Profiles** | Vegetation Structural Insights From GEDI | Self-paced lecture |  |
+| **From Download to Discovery: Accessing and Analyzing Vegetation Structure Metrics** | Tutorial *Exploring Forest Structure with GEDI L2B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
+| **From Discovery to Correlation: Comparing spaceborne and airborne lidar** | Tutorial *Comparing L2B PAI with high-resolution lidar in the Sewanee Domain, Tennessee* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
+| **Above Ground Biomass with GEDI** | GEDI’s Biomass Estimation Approach | Self-paced lecture |  |
+| **From Download to Discovery: Accessing and Analyzing Biomass Estimations** | Tutorial
+
+*Exploring Biomass with GEDI L4A and L4B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
+
+**Module 3** discusses downstream GEDI derived products for carbon and biomass monitoring with Online Biomass Inference using Waveforms and iNventory (OBIWAN) Application Programming Interface (API). Participants will learn how biomass products are derived and their advantages and limitations. This module shows participants how to create dashboards and reporting systems for any geography covering any period from 1985 to the present. **Level:** introductory to intermediate.
+
+| Section | Topics | Format | Requirements |
+| :---: | ----- | ----- | ----- |
+| **From Estimating Biomass with GEDI to Estimating Biomass Change with OBIWAN API** | GEDI mission biomass estimation: theory and products | Recorded lecture | Video and audio viewing |
+| **From Estimating Biomass with GEDI to Estimating Biomass Change with OBIWAN API** | OBIWAN: estimating biomass change with GEDI and Landsat time series | Recorded lecture | Video and audio viewing |
+| **Customize OBIWAN through its API** | Using the OBIWAN API in Alabama | Recorded demonstration of python and Google Earth Engine tutorials | Video and audio viewing Google account and Drive Github account *Optional* Google Earth Engine Account |
+
+**Module 4** will have advanced applications focused on GEDI derived products for monitoring forest disturbances and carbon dynamics. Dr. Izaya Numata (South Dakota State University) will present methods for forest biomass estimation using field, airborne, and satellite lidar (GEDI) data developed in Acre, Brazil. Participants will understand the advantages, limitations, and considerations for applying such methodology on their own. **Level:** Intermediate to advanced.
+
+| Section | Topics | Format | Requirements |
+| :---: | ----- | ----- | ----- |
+| **Forest Biomass Estimation Using Data from Field, Airborne and Spaceborne Lidar** | Learn to develop local forest biomass model using field and remote sensing data and its application for AGB mapping | Self-paced lecture |  |
+| **Calibrating Field, Airborne and Spaceborne Lidar** | Exercise 1 GEDI waveform simulation with airborne lidar using rGEDI Exercise 2 Development of local AGB model with field AGB and simulated ALS Relative Height metrics in R Exercise 3 Above ground biomass mapping in Google Earth Engine Biomass change detection fusing lidar with the CCDC algorithm  | Self-paced RStudio and Google Earth Engine tutorials | Github account RStudio, RTools, rGEDI, and rGEDIsimulator package and program installations Google Earth Engine Account |
 
 # *May the Forest Be With You*
 
