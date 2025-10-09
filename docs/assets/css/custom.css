@@ -137,6 +137,10 @@ li {
   font-weight: 600;
 }
 
+.site-title:hover {
+  background-image: none !important; /* remove gradient */
+}
+
 /* Active accent bar */
 .nav-list .nav-list-item.active > a::before,
 .nav-list .nav-list-item a[aria-current="page"]::before {
