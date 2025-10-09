@@ -23,6 +23,23 @@
   --button-primary-hover-color: #388e3c;
 }
 
+/* Navigation bar container */
+.site-header,
+.site-header-nav {
+  background-color: #1a1a1a;   /* 🔧 nav bar background color */
+  color: #ffffff;              /* 🔧 nav text color */
+}
+
+/* Site title (left side link) */
+.site-title {
+  color: #ffffff !important;   /* ensure it overrides default */
+  text-decoration: none;
+}
+.site-title:hover {
+  color: #cccccc;              /* hover color */
+}
+
+
 /* Apply background and text colors */
 body {
   background-color: var(--body-background-color);
@@ -89,10 +106,16 @@ th, td {
   opacity: 1;      /* ensures the color applies consistently */
 }
 
+/* Magnifying glass icon (if visible) */
+.search-icon {
+  color: #3ca97d;
+}
+
+
 /* Update footer component */
 .site-footer {
   background-color: #221d1f; !important;
-  color: #ffd51f; !important;
+  color: #bbbbbb; !important;
 }
 
 .site-footer a {
