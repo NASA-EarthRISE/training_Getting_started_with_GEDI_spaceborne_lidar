@@ -9,12 +9,18 @@
 
 /* Root variables for colors */
 :root {
-  --body-background-color: #f8f9f9; /* very light grey */
-  --text-color: #1b1b1b; /* near-black text */
-  --link-color: #0072ce; /* NASA blue */
-  --link-hover-color: #005ba1; /* darkened NASA blue */
-  --heading-color: #1b1b1b;
-  --accent-color: #78BE20; /* green from GEDI EarthRISE branding */
+/*  --body-background-color: #f8f9f9; /* very light grey */ */
+/*  --text-color: #1b1b1b; /* near-black text */ */
+/*  --link-color: #0072ce; /* NASA blue */ */
+/*  --link-hover-color: #005ba1; /* darkened NASA blue */ */
+/*  --heading-color: #1b1b1b; */
+/*  --accent-color: #78BE20; /* green from GEDI EarthRISE branding */ */
+  --body-background-color: #221d1f;
+  --text-color: #ffd51f;
+  --link-color: #3ca97d;
+  --link-hover-color: #1a9247;
+  --heading-color: #ffd51f;
+  --accent-color: #e13a3e;
 }
 
 /* Apply background and text colors */
