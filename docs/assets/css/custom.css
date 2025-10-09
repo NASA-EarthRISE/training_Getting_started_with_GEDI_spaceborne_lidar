@@ -114,7 +114,7 @@ li {
 /* Hover on all nav links */
 .nav-list .nav-list-item a:hover {
   color: var(--link-hover-color);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.02);
 }
 
 /* Active (current) page links */
@@ -139,7 +139,7 @@ li {
 /* Dropdown icons / arrows */
 .nav-list .nav-list-expander svg,
 .nav-list .nav-list-expander {
-  color: var(--text-color);
+  color: #3ca97d;
 }
 
 /* Sidebar section titles */
@@ -150,7 +150,7 @@ li {
 /* Footer */
 .site-footer {
   background-color: var(--body-background-color) !important;
-  color: var(--text-color) !important;
+  color: #ffffff !important;
   border-top: 1px solid var(--body-background-color);
 }
 .site-footer a {
@@ -196,7 +196,7 @@ th, td {
 
 .search-input {
   background-color: #221d1f;
-  color: var(--text-color);
+  color: #ffffff;
   border: 1px solid var(--body-background-color); /* blends in */
   box-shadow: none;
 }
