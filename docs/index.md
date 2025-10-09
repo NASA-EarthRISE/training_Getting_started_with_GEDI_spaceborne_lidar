@@ -23,7 +23,7 @@ The lesson content for each of the four Modules can be found in the tabs on the 
 
 ### Questions
 If you have any questions about the material, please submit a question below! We are here to help.
-[Ask a Question](https://github.com/SERVIR/GEDI_Earthhub_ARSET_Training/discussions){: .btn .btn-purple }
+[Ask a Question](https://github.com/SERVIR/GEDI_Earthhub_ARSET_Training/discussions){: .btn .btn-green }
 
 ## Modules and Topics Overview
 Overview of topics covered in each module, the format(s) of the training course, any technical or other requirements, and suggested prior knowledge. Additional prerequisites and background information will be detailed within each module. 
