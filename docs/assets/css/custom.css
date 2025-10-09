@@ -15,7 +15,7 @@
   --link-hover-color: #1a9247;
   --heading-color: #ffd51f;
   --accent-color: #e13a3e;
-  --border-color: #cccccc;
+  --border-color: #e13a3e;
   --feedback-color: #ff9800;
   --sidebar-color: #e3f2fd;
   --code-background-color: #fafafa;
@@ -67,10 +67,32 @@ h1, h2, h3, h4, h5, h6 {
   color: #3ca97d !important; 
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid var(--border-color);
+}
+th, td {
+  border: 1px solid var(--border-color);
+  background-color: transparent !important;
+}
+
+/* The main search input box */
+.search-input {
+  background-color: #221d1f;  /*  background color */
+  color: #3ca97d;              /*  text color */
+}
+
+/* Placeholder text (the “Search” text before typing) */
+.search-input::placeholder {
+  color: #bbbbbb;  /* 🔧 placeholder color */
+  opacity: 1;      /* ensures the color applies consistently */
+}
+
 /* Update footer component */
 .site-footer {
   background-color: #221d1f; !important;
-  color: #221d1f; !important;
+  color: #ffd51f; !important;
 }
 
 .site-footer a {
