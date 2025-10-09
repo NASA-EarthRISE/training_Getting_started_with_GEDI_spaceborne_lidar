@@ -74,9 +74,6 @@ li {
 .site-title {
   color: #ffd51f !important;
 }
-.site-title:hover {
-  color: var(--link-hover-color) !important;
-}
 
 /* Auxiliary navigation */
 .aux-nav,
@@ -109,6 +106,25 @@ li {
 }
 
 /* Hover and active states in nav */
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active {
+  background-image: linear-gradient(
+    -90deg,
+    rgba(235, 237, 245, 0.08) 0%,   /* barely visible at the start */
+    rgba(235, 237, 245, 0.04) 80%,  /* fades quickly */
+    rgba(235, 237, 245, 0) 100%     /* fully transparent at end */
+  ) !important;
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba(235, 237, 245, 0.08) 0%,   /* faint hint at start */
+    rgba(235, 237, 245, 0.02) 100%  /* fades out smoothly */
+  ) !important;
+}
+
+
 .nav-list .nav-list-item a:hover {
   color: #2FF924 !important; /* green text */
   background-color: rgba(255, 255, 255, 0.02); /* even fainter white overlay */
