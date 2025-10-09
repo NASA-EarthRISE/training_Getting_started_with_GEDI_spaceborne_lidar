@@ -43,6 +43,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
 }
 
+.main-content {
+  background-color: var(--body-background-color);
+  border-left: 1px solid var(--border-color);
+}
+
+.nav-list,
+.site-nav,
+.side-bar {
+  background-color: var(--sidebar-color);
+}
+
 /* Update navbar component */
 .navbar {
   background-color: var(--accent-color) !important;
