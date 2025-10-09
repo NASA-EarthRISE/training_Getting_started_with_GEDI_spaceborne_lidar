@@ -38,6 +38,15 @@ a:hover {
   color: var(--link-hover-color);
 }
 
+/* Bullet and numbered lists */
+ul, ol {
+  color: #ffffff;               /* 🔧 white list text */
+  list-style-position: inside;  /* keeps bullets visible */
+}
+li {
+  color: #ffffff;
+}
+
 /* ─────────────────────────────── */
 /* Layout: navbar, sidebar, footer */
 /* ─────────────────────────────── */
@@ -57,6 +66,17 @@ a:hover {
   color: var(--text-color) !important;
 }
 .site-title:hover {
+  color: var(--link-hover-color) !important;
+}
+
+/* Auxiliary navigation (e.g. GitHub link on top right) */
+.aux-nav,
+.aux-nav-list,
+.aux-nav-list-item a {
+  background-color: var(--body-background-color) !important;
+  color: var(--text-color) !important;
+}
+.aux-nav-list-item a:hover {
   color: var(--link-hover-color) !important;
 }
 
@@ -134,14 +154,16 @@ th, td {
 .search-input {
   background-color: var(--body-background-color);
   color: var(--text-color);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--body-background-color); /* blend border */
+  box-shadow: none;
+}
+.search-input:focus {
+  outline: none;
+  border: 1px solid var(--body-background-color); /* still blended */
+  box-shadow: none;
 }
 .search-input::placeholder {
   color: #888888;
-}
-.search-input:focus {
-  border-color: var(--link-hover-color);
-  outline: none;
 }
 .search-icon {
   color: var(--text-color);
@@ -181,7 +203,7 @@ body, .main-content, .side-bar, .site-header, .site-footer {
   border-color: var(--body-background-color);
 }
 
-/* Scrollbar to match theme */
+/* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
 }
