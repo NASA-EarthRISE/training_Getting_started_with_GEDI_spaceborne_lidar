@@ -144,7 +144,7 @@ The lesson content for each of the modules can be found in the tabs on the left 
 
 If you have any questions about the material, please submit a question below\! We are here to help.
 
-[Ask a Question](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/discussions)
+[Ask a Question](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/discussions){: .btn .btn-green }
 
 # **All Modules and Topics Overview**
 
