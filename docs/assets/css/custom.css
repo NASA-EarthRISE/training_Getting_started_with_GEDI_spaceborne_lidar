@@ -121,14 +121,14 @@ li {
 .nav-list .nav-list-item.active > a,
 .nav-list .nav-list-item a[aria-current="page"] {
   color: var(--link-hover-color) !important;
-  background-color: rgba(255, 255, 255, 0.01);
+  background-color: rgba(255, 255, 255, 0.05);
   font-weight: 600;
 }
 
 /* Active accent bar */
 .nav-list .nav-list-item.active > a::before,
 .nav-list .nav-list-item a[aria-current="page"]::before {
-  background-color: rgba(255, 255, 255, 0.01) !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
 /* Active main section title (parent of open subpages) */
