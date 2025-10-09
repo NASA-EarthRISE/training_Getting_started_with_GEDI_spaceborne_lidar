@@ -1,147 +1,194 @@
 /* assets/css/custom.css */
 
 /* ----------------------------
-   NASA EarthRISE custom theme
+   NASA EarthRISE Unified Theme
    ---------------------------- */
-
-/* Note: CSS cannot import Just the Docs styles directly like SCSS can.
-   The theme will load its default styles automatically. */
 
 /* Root variables for colors */
 :root {
   --body-background-color: #221d1f;
   --text-color: #ffd51f;
+  --heading-color: #ffd51f;
   --link-color: #3ca97d;
   --link-hover-color: #1a9247;
-  --heading-color: #ffd51f;
-  --accent-color: #e13a3e;
   --border-color: #e13a3e;
-  --feedback-color: #ff9800;
-  --sidebar-color: #e3f2fd;
-  --code-background-color: #fafafa;
-  --button-primary-color: #4caf50;
-  --button-primary-hover-color: #388e3c;
+  --accent-color: #e13a3e;
 }
 
-/* Navigation bar container */
-.site-header,
-.site-header-nav {
-  background-color: #221d1f;   /* 🔧 nav bar background color */
-  color: #ffd51f;              /* 🔧 nav text color */
-}
+/* ─────────────────────────────── */
+/* Global page + typography colors */
+/* ─────────────────────────────── */
 
-/* Site title (left side link) */
-.site-title {
-  color: #ffffff !important;   /* ensure it overrides default */
-  text-decoration: none;
-}
-.site-title:hover {
-  color: #cccccc;              /* hover color */
-}
-
-
-/* Apply background and text colors */
+html,
 body {
   background-color: var(--body-background-color);
   color: var(--text-color);
+  border: none;
 }
 
-/* Links */
-a {
-  color: var(--link-color);
-}
-
-a:hover {
-  color: var(--link-hover-color);
-}
-
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
 }
 
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--link-hover-color);
+}
+
+/* ─────────────────────────────── */
+/* Layout: navbar, sidebar, footer */
+/* ─────────────────────────────── */
+
+/* Top navigation bar */
+.site-header,
+.site-header-nav,
+.navbar {
+  background-color: var(--body-background-color) !important;
+  color: var(--text-color) !important;
+  border: none;
+  box-shadow: none;
+}
+
+/* Site title */
+.site-title {
+  color: var(--text-color) !important;
+}
+.site-title:hover {
+  color: var(--link-hover-color) !important;
+}
+
+/* Sidebar navigation */
+.site-nav,
+.side-bar,
+.nav-list {
+  background-color: var(--body-background-color);
+  color: var(--text-color);
+  border-right: 1px solid var(--body-background-color);
+}
+
+/* Nav links */
+.nav-list .nav-list-item a {
+  color: var(--text-color);
+}
+.nav-list .nav-list-item a:hover {
+  color: var(--link-hover-color);
+  background-color: #2a2527;
+}
+
+/* Dropdown arrows/icons */
+.nav-list .nav-list-expander svg,
+.nav-list .nav-list-expander {
+  color: var(--text-color);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--body-background-color) !important;
+  color: var(--text-color) !important;
+  border-top: 1px solid var(--body-background-color);
+}
+.site-footer a {
+  color: var(--link-color) !important;
+}
+.site-footer a:hover {
+  color: var(--link-hover-color) !important;
+}
+
+/* ─────────────────────────────── */
+/* Content area */
+/* ─────────────────────────────── */
+
 .main-content {
   background-color: var(--body-background-color);
+  color: var(--text-color);
   border-left: 1px solid var(--body-background-color);
 }
 
-.nav-list,
-.site-nav {
-  background-color: var(--body-background-color);
-}
-.side-bar {
-  background-color: var(--sidebar-color);
-}
-
-/* Update navbar component */
-.navbar {
-  background-color: var(--accent-color) !important;
+/* Code blocks, inline code */
+code, pre {
+  background-color: #2a2527;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
 }
 
-.navbar a {
-  color: #221d1f !important;
-}
-
-.navbar a:hover {
-  color: #3ca97d !important; 
-}
-
+/* Tables */
 table {
   border-collapse: collapse;
   width: 100%;
+  background-color: transparent;
   border: 1px solid var(--border-color);
 }
 th, td {
   border: 1px solid var(--border-color);
   background-color: transparent !important;
+  color: var(--text-color);
 }
 
-/* The main search input box */
+/* ─────────────────────────────── */
+/* Search bar */
+/* ─────────────────────────────── */
+
 .search-input {
-  background-color: #221d1f;  /*  background color */
-  color: #3ca97d;              /*  text color */
+  background-color: var(--body-background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
 }
-
-/* Placeholder text (the “Search” text before typing) */
 .search-input::placeholder {
-  color: #bbbbbb;  /* 🔧 placeholder color */
-  opacity: 1;      /* ensures the color applies consistently */
+  color: #888888;
 }
-
-/* Magnifying glass icon (if visible) */
+.search-input:focus {
+  border-color: var(--link-hover-color);
+  outline: none;
+}
 .search-icon {
-  color: #3ca97d;
+  color: var(--text-color);
 }
 
-
-/* Update footer component */
-.site-footer {
-  background-color: #221d1f; !important;
-  color: #bbbbbb; !important;
+/* Search results dropdown */
+.search-results {
+  background-color: var(--body-background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
 }
 
-.site-footer a {
-  color: var(--link-color) !important;
+/* ─────────────────────────────── */
+/* Buttons and forms */
+/* ─────────────────────────────── */
+
+button,
+input,
+select,
+textarea {
+  background-color: #2a2527;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+button:hover,
+input[type="submit"]:hover {
+  background-color: var(--link-hover-color);
+  color: #fff;
 }
 
-/* Update side-bar component */
-.side-bar {
-    background-color: #221d1f;
+/* ─────────────────────────────── */
+/* Optional visual tweaks */
+/* ─────────────────────────────── */
+
+/* Remove contrasting borders around page edges */
+body, .main-content, .side-bar, .site-header, .site-footer {
+  border-color: var(--body-background-color);
 }
 
-/* Responsive video styles */
-.responsive-video {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
+/* Scrollbar to match theme */
+::-webkit-scrollbar {
+  width: 8px;
 }
-
-.responsive-video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+::-webkit-scrollbar-thumb {
+  background-color: #3a3336;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4a4446;
 }
