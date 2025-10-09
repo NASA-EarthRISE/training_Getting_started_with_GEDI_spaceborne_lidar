@@ -6,10 +6,10 @@
 
 :root {
   --body-background-color: #221d1f;
-  --text-color: #ffd51f;
+  --text-color: #ffffff;
   --heading-color: #ffd51f;
-  --link-color: #3ca97d;
-  --link-hover-color: #3ca97d;  /* unified hover color */
+  --link-color: #ffd51f;
+  --link-hover-color: #3ca97d;
   --border-color: #e13a3e;
   --accent-color: #e13a3e;
 }
@@ -75,7 +75,7 @@ li {
 
 /* Site title */
 .site-title {
-  color: var(--text-color) !important;
+  color: #ffd51f !important;
 }
 .site-title:hover {
   color: var(--link-hover-color) !important;
@@ -86,7 +86,7 @@ li {
 .aux-nav-list,
 .aux-nav-list-item a {
   background-color: #221d1f !important;
-  color: var(--text-color) !important;
+  color: #ffd51f !important;
 }
 .aux-nav-list-item a:hover {
   color: var(--link-hover-color) !important;
@@ -103,25 +103,25 @@ li {
 
 /* Main-level nav links */
 .nav-list > .nav-list-item > a {
-  color: var(--text-color); /* gold text */
+  color: #ffd51f;
 }
 
 /* Subpage / nested links (indented tabs) */
 .nav-list .nav-list-item .nav-list .nav-list-item > a {
-  color: #ffffff !important; /* white text */
+  color: #ffd51f !important;
 }
 
 /* Hover on all nav links */
 .nav-list .nav-list-item a:hover {
   color: var(--link-hover-color);
-  background-color: #2a2527;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Active (current) page links */
 .nav-list .nav-list-item.active > a,
 .nav-list .nav-list-item a[aria-current="page"] {
   color: var(--link-hover-color) !important;
-  background-color: #2a2527;
+  background-color: rgba(255, 255, 255, 0.05);
   font-weight: 600;
 }
 
@@ -138,7 +138,7 @@ li {
 
 /* Sidebar section titles */
 .nav-list .nav-list-title {
-  color: #ffffff !important;
+  color: #ffd51f !important;
 }
 
 /* Footer */
