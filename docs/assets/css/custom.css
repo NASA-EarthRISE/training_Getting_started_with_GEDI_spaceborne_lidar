@@ -52,7 +52,6 @@ li {
 /* Top header and navigation */
 /* ─────────────────────────────── */
 
-/* Full-width site header background */
 .site-header {
   background-color: #221d1f !important;
   color: var(--text-color) !important;
@@ -64,7 +63,6 @@ li {
   align-items: center;
 }
 
-/* Ensure inner nav inherits the same solid background */
 .site-header-nav,
 .navbar,
 .aux-nav {
@@ -73,7 +71,6 @@ li {
   border: none;
 }
 
-/* Site title */
 .site-title {
   color: #ffd51f !important;
 }
@@ -81,7 +78,7 @@ li {
   color: var(--link-hover-color) !important;
 }
 
-/* Auxiliary navigation (top right links like GitHub) */
+/* Auxiliary navigation */
 .aux-nav,
 .aux-nav-list,
 .aux-nav-list-item a {
@@ -106,22 +103,21 @@ li {
   color: #ffd51f;
 }
 
-/* Subpage / nested links (indented tabs) */
+/* Subpage / nested links */
 .nav-list .nav-list-item .nav-list .nav-list-item > a {
   color: #ffd51f !important;
 }
 
-/* Hover on all nav links */
+/* Hover and active states in nav */
 .nav-list .nav-list-item a:hover {
-  color: var(--link-hover-color);
-  background-color: rgba(255, 255, 255, 0.01);
+  color: #2FF924 !important;
+  background-color: rgba(255, 255, 255, 0.05); /* transparent with hint of white */
 }
 
-/* Active (current) page links */
 .nav-list .nav-list-item.active > a,
 .nav-list .nav-list-item a[aria-current="page"] {
-  color: var(--link-hover-color) !important;
-  background-color: rgba(255, 255, 255, 0.05);
+  color: #2FF924 !important;
+  background-color: rgba(255, 255, 255, 0.07);
   font-weight: 600;
 }
 
@@ -159,6 +155,10 @@ li {
 .site-footer a:hover {
   color: var(--link-hover-color) !important;
 }
+/* Force white text for footer courtesy line */
+.site-footer .text-small.text-grey-dk-100.mb-0 {
+  color: #ffffff !important;
+}
 
 /* ─────────────────────────────── */
 /* Content area */
@@ -194,10 +194,14 @@ th, td {
 /* Search bar */
 /* ─────────────────────────────── */
 
+.search-input-wrap {
+  max-width: none !important; /* REMOVE LIMIT */
+}
+
 .search-input {
   background-color: #221d1f;
   color: #ffffff;
-  border: 1px solid var(--body-background-color); /* blends in */
+  border: 1px solid var(--body-background-color);
   box-shadow: none;
 }
 .search-input:focus {
