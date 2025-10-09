@@ -9,7 +9,7 @@
   --text-color: #ffffff;
   --heading-color: #ffd51f;
   --link-color: #ffd51f;
-  --link-hover-color: #3ca97d;
+  --link-hover-color: #2FF924;
   --border-color: #e13a3e;
   --accent-color: #e13a3e;
 }
@@ -139,7 +139,7 @@ li {
 /* Dropdown icons / arrows */
 .nav-list .nav-list-expander svg,
 .nav-list .nav-list-expander {
-  color: #3ca97d;
+  color: #2FF924;
 }
 
 /* Sidebar section titles */
@@ -207,10 +207,10 @@ th, td {
   box-shadow: none;
 }
 .search-input::placeholder {
-  color: #3ca97d;
+  color: #2FF924;
 }
 .search-icon {
-  color: #3ca97d;
+  color: #2FF924;
 }
 
 /* Search results dropdown */
@@ -222,10 +222,10 @@ th, td {
 
 /* Table of contents heading anchor links */
 .anchor-heading {
-  color: #3ca97d;
+  color: #2FF924;
 }
 .anchor-heading:hover {
-  color: #3ca97d;
+  color: #2FF924;
 }
 
 /* ─────────────────────────────── */
