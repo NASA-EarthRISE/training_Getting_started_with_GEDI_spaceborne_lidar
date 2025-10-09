@@ -110,21 +110,21 @@ li {
 
 /* Hover and active states in nav */
 .nav-list .nav-list-item a:hover {
-  color: #2FF924 !important;
-  background-color: rgba(255, 255, 255, 0.05); /* transparent with hint of white */
+  color: #2FF924 !important; /* green text */
+  background-color: rgba(255, 255, 255, 0.02); /* even fainter white overlay */
 }
 
 .nav-list .nav-list-item.active > a,
 .nav-list .nav-list-item a[aria-current="page"] {
-  color: #2FF924 !important;
-  background-color: rgba(255, 255, 255, 0.07);
+  color: #2FF924 !important; /* green text on selected */
+  background-color: rgba(255, 255, 255, 0.03); /* slightly more visible but still very subtle */
   font-weight: 600;
 }
 
 /* Active accent bar */
 .nav-list .nav-list-item.active > a::before,
 .nav-list .nav-list-item a[aria-current="page"]::before {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.02) !important;
 }
 
 /* Active main section title (parent of open subpages) */
