@@ -1,8 +1,8 @@
--–
+---
 layout: page
 title: Overview
 nav_order: 1
--–
+---
 
 # [**Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications**](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/tree/main)
 
@@ -138,13 +138,13 @@ Fernanda Lopez Ornelas 16
 
 # **Navigation**
 
-The lesson content for each of the modules can be found in the tabs on the left hand side panel of the webpage. There are individual pages for supplementary resources, and pre and post surveys for participants to fill out. Tutorials and hands-on exercises are found in this Github repository but are also linked to the respective background page/tab. Any questions or feedback regarding the scripting and tutorials can be directed to the Github Discussions link.
+The lesson content for each of the modules can be found in the tabs on the left hand side panel of the webpage. There are individual pages for supplementary resources, and pre and post surveys for participants to fill out. Tutorials and hands-on exercises are found in this Github repository but are also linked to the respective background page/tab.
 
 # **Questions**
 
 If you have any questions about the material, please submit a question below\! We are here to help.
 
-[Ask a Question](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/discussions){: .btn .btn-green }
+[Ask a Question](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/discussions)
 
 # **All Modules and Topics Overview**
 
@@ -169,12 +169,10 @@ Overview of topics covered in each module, respective format(s), and any technic
 | **Lasering in on the GEDI Mission** | How GEDI Information Ecosystem Studies | Self-paced lecture |  |
 | **From Ground to Canopy** | GEDI’s Elevation and Relative Height Metrics Explained | Self-paced lecture |  |
 | **From Canopy Layers to Vertical Profiles** | Vegetation Structural Insights From GEDI | Self-paced lecture |  |
-| **From Download to Discovery: Accessing and Analyzing Vegetation Structure Metrics** | Tutorial *Exploring Forest Structure with GEDI L2B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
-| **From Discovery to Correlation: Comparing spaceborne and airborne lidar** | Tutorial *Comparing L2B PAI with high-resolution lidar in the Sewanee Domain, Tennessee* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
+| **From Download to Discovery: Accessing and Analyzing Vegetation Structure Metrics** | Tutorial: *Exploring Forest Structure with GEDI L2B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
+| **From Discovery to Correlation: Comparing spaceborne and airborne lidar** | Tutorial: *Comparing L2B PAI with high-resolution lidar in the Sewanee Domain, Tennessee* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
 | **Above Ground Biomass with GEDI** | GEDI’s Biomass Estimation Approach | Self-paced lecture |  |
-| **From Download to Discovery: Accessing and Analyzing Biomass Estimations** | Tutorial
-
-*Exploring Biomass with GEDI L4A and L4B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
+| **From Download to Discovery: Accessing and Analyzing Biomass Estimations** | Tutorial: *Exploring Biomass with GEDI L4A and L4B in the Southeast* | Self-paced python tutorial | Google account and Drive NASA EarthData Access Account Python platform Google Colab notebooks Github account |
 
 **Module 3** discusses downstream GEDI derived products for carbon and biomass monitoring with Online Biomass Inference using Waveforms and iNventory (OBIWAN) Application Programming Interface (API). Participants will learn how biomass products are derived and their advantages and limitations. This module shows participants how to create dashboards and reporting systems for any geography covering any period from 1985 to the present. **Level:** introductory to intermediate.
 
@@ -189,7 +187,7 @@ Overview of topics covered in each module, respective format(s), and any technic
 | Section | Topics | Format | Requirements |
 | :---: | ----- | ----- | ----- |
 | **Forest Biomass Estimation Using Data from Field, Airborne and Spaceborne Lidar** | Learn to develop local forest biomass model using field and remote sensing data and its application for AGB mapping | Self-paced lecture |  |
-| **Calibrating Field, Airborne and Spaceborne Lidar** | Exercise 1 GEDI waveform simulation with airborne lidar using rGEDI Exercise 2 Development of local AGB model with field AGB and simulated ALS Relative Height metrics in R Exercise 3 Above ground biomass mapping in Google Earth Engine Biomass change detection fusing lidar with the CCDC algorithm  | Self-paced RStudio and Google Earth Engine tutorials | Github account RStudio, RTools, rGEDI, and rGEDIsimulator package and program installations Google Earth Engine Account |
+| **Calibrating Field, Airborne and Spaceborne Lidar** | Exercise 1\) GEDI waveform simulation with airborne lidar using rGEDI. Exercise 2\) Development of local AGB model with field AGB and simulated ALS Relative Height metrics in R. Exercise 3\) Above ground biomass change mapping in Google Earth Engine. | Self-paced RStudio and Google Earth Engine tutorials | Github account RStudio, RTools, rGEDI, and rGEDIsimulator package and program installations. Google Earth Engine Account |
 
 # *May the Forest Be With You*
 
