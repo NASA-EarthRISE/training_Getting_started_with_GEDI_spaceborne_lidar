@@ -137,6 +137,10 @@ li {
   font-weight: 600;
 }
 
+.site-button:hover {
+background-image: linear-gradient(-90deg, rgba(235, 237, 245, 0.08) 0%, rgba(235, 237, 245, 0.04) 80%, rgba(235, 237, 245, 0) 100%) !important;
+}
+
 .site-title:hover {
   background-image: none !important; /* remove gradient */
 }
@@ -152,6 +156,10 @@ li {
   color: var(--link-hover-color) !important;
 }
 
+.icon {
+   color: #2FF924; !important
+}
+
 /* Dropdown icons / arrows */
 .nav-list .nav-list-expander svg,
 .nav-list .nav-list-expander {
@@ -161,6 +169,12 @@ li {
 /* Sidebar section titles */
 .nav-list .nav-list-title {
   color: #ffd51f !important;
+}
+
+@media (min-width: 50rem) {
+    .search-active .search-input-wrap {
+       width: 100%; !important
+    }
 }
 
 /* Footer */
@@ -234,7 +248,7 @@ th, td {
   color: #2FF924;
 }
 .search-icon {
-  color: #2FF924;
+  color: #2FF924; !important;
 }
 
 /* Search results dropdown */
