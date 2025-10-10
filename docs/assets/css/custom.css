@@ -280,8 +280,7 @@ textarea {
 }
 button:hover,
 input[type="submit"]:hover {
-  background-color: var(--link-hover-color);
-  color: #fff;
+  background-image: linear-gradient(-90deg, rgba(235, 237, 245, 0.08) 0%, rgba(235, 237, 245, 0.04) 80%, rgba(235, 237, 245, 0) 100%) !important;
 }
 
 /* ─────────────────────────────── */
