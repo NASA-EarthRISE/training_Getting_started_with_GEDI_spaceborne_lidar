@@ -130,6 +130,14 @@ li {
   background-color: rgba(255, 255, 255, 0.02); /* even fainter white overlay */
 }
 
+.main-content .anchor-heading svg {
+     color: #2FF924 !important; /* green text */
+}
+
+.text-small .text-grey-dk-100 .mb-0 {
+   color: white !important;
+}
+
 .nav-list .nav-list-item.active > a,
 .nav-list .nav-list-item a[aria-current="page"] {
   color: #2FF924 !important; /* green text on selected */
