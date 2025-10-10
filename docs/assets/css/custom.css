@@ -202,6 +202,10 @@ background-image: linear-gradient(-90deg, rgba(235, 237, 245, 0.08) 0%, rgba(235
   color: #ffffff !important;
 }
 
+footer > :first-child {
+  color: white !important;
+}
+
 /* ─────────────────────────────── */
 /* Content area */
 /* ─────────────────────────────── */
@@ -256,7 +260,7 @@ th, td {
   color: #2FF924;
 }
 .search-icon {
-  color: #2FF924; !important;
+  color: #2FF924 !important;
 }
 
 /* Search results dropdown */
