@@ -1,18 +1,98 @@
-# Spaceborne Lidar Applications Trainings and Resources
+# Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications
 
-​A Github page collecting foundational lidar educational materials and application examples with tutorials for your exploration.
+Welcome to the **Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications** — a comprehensive resource for learning how to work with GEDI (Global Ecosystem Dynamics Investigation) lidar data in ecosystem research and management.
 
-:construction: Under Construction :construction:
+This site is hosted as a GitHub Pages site using the *Just the Docs* Jekyll theme. :contentReference[oaicite:0]{index=0}
 
-:construction: Everything below this line is under construction and not final :construction:
+---
 
-## Directory of content, requirements, and pre-requisites for each.
+## About
 
+GEDI is a spaceborne full-waveform lidar instrument designed to measure vertical structure and surface topography of Earth’s vegetated areas. Its data products are well suited for estimating canopy height, biomass, and structural metrics that support ecosystem, forestry, and carbon cycle science. :contentReference[oaicite:1]{index=1}
 
-### Details on any program/platform pre-requisites for which modules
+This training is organized into four modules that guide users from fundamentals to advanced applications:
 
+- **Module 1**: Introduction to full waveform lidar and fundamental concepts  
+- **Module 2**: In-depth exploration of GEDI mission, data products, and structure metrics  
+- **Module 3**: Biomass change estimation using the OBIWAN API  
+- **Module 4**: Local forest biomass modeling integrating field, airborne, and spaceborne data :contentReference[oaicite:2]{index=2}  
 
-## Posting Questions or Giving Feedback
+Each module includes background lectures, tutorials (Python, R, or Google Colab / GEE), and exercises. :contentReference[oaicite:3]{index=3}
 
-## Contributors
+---
 
+## Learning Objectives
+
+After completing this training, participants should be able to:
+
+1. Explain the physical principles underlying lidar and how it relates to biophysical parameters  
+2. Describe GEDI’s design, missions, and data products (Levels 1–4)  
+3. Interpret full waveform and derived vegetation metrics across different ecosystems  
+4. Implement quality filtering and preprocessing for GEDI data  
+5. Acquire and subset GEDI datasets using open repositories  
+6. Estimate and validate canopy height, biomass, and structural metrics  
+7. Use standard wall-to-wall GEDI biomass products  
+8. Interact with the OBIWAN API to compute biomass change  
+9. Apply GEDI in real-world use cases and integrate results into ecosystem studies :contentReference[oaicite:4]{index=4}
+
+---
+
+## Prerequisites & Suggested Knowledge
+
+Before diving in, it's helpful to:
+
+- Have basic understanding of remote sensing, especially lidar  
+- Be comfortable working with geospatial data (e.g. rasters, point clouds)  
+- Know at least one scripting language (Python or R)  
+- Understand fundamentals of ecosystem science, biomass, and carbon cycling  
+
+That said, the training provides background content to help users build the needed foundations. :contentReference[oaicite:5]{index=5}
+
+---
+
+## Repository Structure (and Site Navigation)
+
+- The **site content** (lectures, background pages, navigation) is built with Jekyll + the *Just the Docs* theme. :contentReference[oaicite:6]{index=6}  
+- **Tutorials, exercises, and notebooks** are included in the repository and linked from the web pages  
+- Use the left side navigation panel on the live site to browse across modules, resources, and surveys :contentReference[oaicite:7]{index=7}  
+- Some pages (e.g. supplementary resources, questionnaires) are linked externally within the site framework :contentReference[oaicite:8]{index=8}  
+
+---
+
+## 🧑‍💻 How to Use / Get Started
+
+1. **Visit the live site** at  
+   https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/  
+2. Navigate via the module tabs in the sidebar to explore lectures, tutorials, and exercises  
+3. Download or clone the repository to access the code notebooks and supplementary materials  
+4. Set up your workflow environment (Python, R, Google Colab, GEE, etc.) as appropriate  
+5. Work through the notebooks and tutorials in tandem with the lecture material  
+6. Submit questions via the “Ask a Question” link on the site if you get stuck :contentReference[oaicite:9]{index=9}  
+
+---
+
+## Contributors & Acknowledgments
+
+This training was developed through collaboration among NASA, academic institutions, and scientists. Lead contributors include:
+
+- Stephanie Jiménez, Tim Mayer, Naiara Pinto, Savannah Cooley, Sean Healey, Christine Evans, Izaya Numata, Kevin Horn, Diana West, and many others :contentReference[oaicite:10]{index=10}  
+- Acknowledgement to supporting contributors and institutions listed on the site :contentReference[oaicite:11]{index=11}  
+
+---
+
+## Licensing & Use
+
+EarthRISE at NASA Marshall Space Flight Center with past work from SERVIR-Applied Science Team Grants from NASA ROSES 2022.
+
+Please cite these resources as:
+
+---
+
+## ❓ Questions & Support
+
+If you have any questions, need help with exercises, or want to suggest improvements, please use the **Ask a Question** feature on the website. :contentReference[oaicite:12]{index=12}
+
+---
+
+Feel free to edit or augment this README to match your style, add images or badges, or include usage instructions for local development. Would you like me to generate a version with a badge and more visual layout for your repository’s root?
+::contentReference[oaicite:13]{index=13}
