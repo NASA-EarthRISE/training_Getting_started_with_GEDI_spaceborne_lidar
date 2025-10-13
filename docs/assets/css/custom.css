@@ -9,7 +9,7 @@
   --text-color: #ffffff;
   --heading-color: #ffd51f;
   --link-color: #ffd51f;
-  --link-hover-color: #2FF924;
+  --link-hover-color: #3ca97d;
   --border-color: #e13a3e;
   --accent-color: #e13a3e;
 }
@@ -52,6 +52,7 @@ li {
 /* Top header and navigation */
 /* ─────────────────────────────── */
 
+/* Full-width site header background */
 .site-header {
   background-color: #221d1f !important;
   color: var(--text-color) !important;
@@ -63,6 +64,7 @@ li {
   align-items: center;
 }
 
+/* Ensure inner nav inherits the same solid background */
 .site-header-nav,
 .navbar,
 .aux-nav {
@@ -71,11 +73,15 @@ li {
   border: none;
 }
 
+/* Site title */
 .site-title {
   color: #ffd51f !important;
 }
+.site-title:hover {
+  color: var(--link-hover-color) !important;
+}
 
-/* Auxiliary navigation */
+/* Auxiliary navigation (top right links like GitHub) */
 .aux-nav,
 .aux-nav-list,
 .aux-nav-list-item a {
@@ -100,63 +106,29 @@ li {
   color: #ffd51f;
 }
 
-/* Subpage / nested links */
+/* Subpage / nested links (indented tabs) */
 .nav-list .nav-list-item .nav-list .nav-list-item > a {
   color: #ffd51f !important;
 }
 
-/* Hover and active states in nav */
-.nav-list .nav-list-item .nav-list-link:hover,
-.nav-list .nav-list-item .nav-list-link.active {
-  background-image: linear-gradient(
-    -90deg,
-    rgba(235, 237, 245, 0.08) 0%,   /* barely visible at the start */
-    rgba(235, 237, 245, 0.04) 80%,  /* fades quickly */
-    rgba(235, 237, 245, 0) 100%     /* fully transparent at end */
-  ) !important;
-}
-
-.nav-list .nav-list-item .nav-list-expander:hover {
-  background-image: linear-gradient(
-    -90deg,
-    rgba(235, 237, 245, 0.08) 0%,   /* faint hint at start */
-    rgba(235, 237, 245, 0.02) 100%  /* fades out smoothly */
-  ) !important;
-}
-
-
+/* Hover on all nav links */
 .nav-list .nav-list-item a:hover {
-  color: #2FF924 !important; /* green text */
-  background-color: rgba(255, 255, 255, 0.02); /* even fainter white overlay */
+  color: var(--link-hover-color);
+  background-color: rgba(255, 255, 255, 0.01);
 }
 
-.main-content .anchor-heading svg {
-     color: #2FF924 !important; /* green text */
-}
-
-.text-small .text-grey-dk-100 .mb-0 {
-   color: white !important;
-}
-
+/* Active (current) page links */
 .nav-list .nav-list-item.active > a,
 .nav-list .nav-list-item a[aria-current="page"] {
-  color: #2FF924 !important; /* green text on selected */
-  background-color: rgba(255, 255, 255, 0.03); /* slightly more visible but still very subtle */
+  color: var(--link-hover-color) !important;
+  background-color: rgba(255, 255, 255, 0.05);
   font-weight: 600;
-}
-
-.site-button:hover {
-background-image: linear-gradient(-90deg, rgba(235, 237, 245, 0.08) 0%, rgba(235, 237, 245, 0.04) 80%, rgba(235, 237, 245, 0) 100%) !important;
-}
-
-.site-title:hover {
-  background-image: none !important; /* remove gradient */
 }
 
 /* Active accent bar */
 .nav-list .nav-list-item.active > a::before,
 .nav-list .nav-list-item a[aria-current="page"]::before {
-  background-color: rgba(255, 255, 255, 0.02) !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
 /* Active main section title (parent of open subpages) */
@@ -164,25 +136,15 @@ background-image: linear-gradient(-90deg, rgba(235, 237, 245, 0.08) 0%, rgba(235
   color: var(--link-hover-color) !important;
 }
 
-.icon {
-   color: #2FF924; !important
-}
-
 /* Dropdown icons / arrows */
 .nav-list .nav-list-expander svg,
 .nav-list .nav-list-expander {
-  color: #2FF924;
+  color: #3ca97d;
 }
 
 /* Sidebar section titles */
 .nav-list .nav-list-title {
   color: #ffd51f !important;
-}
-
-@media (min-width: 50rem) {
-    .search-active .search-input-wrap {
-       width: 100%; !important
-    }
 }
 
 /* Footer */
@@ -196,14 +158,6 @@ background-image: linear-gradient(-90deg, rgba(235, 237, 245, 0.08) 0%, rgba(235
 }
 .site-footer a:hover {
   color: var(--link-hover-color) !important;
-}
-/* Force white text for footer courtesy line */
-.site-footer .text-small.text-grey-dk-100.mb-0 {
-  color: #ffffff !important;
-}
-
-footer > :first-child {
-  color: white !important;
 }
 
 /* ─────────────────────────────── */
@@ -240,14 +194,10 @@ th, td {
 /* Search bar */
 /* ─────────────────────────────── */
 
-.search-input-wrap {
-  max-width: none !important; /* REMOVE LIMIT */
-}
-
 .search-input {
   background-color: #221d1f;
   color: #ffffff;
-  border: 1px solid var(--body-background-color);
+  border: 1px solid var(--body-background-color); /* blends in */
   box-shadow: none;
 }
 .search-input:focus {
@@ -257,10 +207,10 @@ th, td {
   box-shadow: none;
 }
 .search-input::placeholder {
-  color: #2FF924;
+  color: #3ca97d;
 }
 .search-icon {
-  color: #2FF924 !important;
+  color: #3ca97d;
 }
 
 /* Search results dropdown */
@@ -272,10 +222,10 @@ th, td {
 
 /* Table of contents heading anchor links */
 .anchor-heading {
-  color: #2FF924;
+  color: #3ca97d;
 }
 .anchor-heading:hover {
-  color: #2FF924;
+  color: #3ca97d;
 }
 
 /* ─────────────────────────────── */
@@ -292,7 +242,8 @@ textarea {
 }
 button:hover,
 input[type="submit"]:hover {
-  background-image: linear-gradient(-90deg, rgba(235, 237, 245, 0.08) 0%, rgba(235, 237, 245, 0.04) 80%, rgba(235, 237, 245, 0) 100%) !important;
+  background-color: var(--link-hover-color);
+  color: #fff;
 }
 
 /* ─────────────────────────────── */
