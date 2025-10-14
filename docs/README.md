@@ -1,4 +1,4 @@
-# Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications
+# Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications - Webpage repository
 
 Welcome to the **Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications** — a comprehensive resource for learning how to work with GEDI (Global Ecosystem Dynamics Investigation) lidar data in ecosystem research and management.
 
