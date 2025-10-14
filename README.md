@@ -1,13 +1,24 @@
 # Getting Started with GEDI Spaceborne LiDAR — Training Repository
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)  
+[![R](https://img.shields.io/badge/R-4.x-blue.svg)](https://www.r-project.org/)
+[![JavaScript (Google Earth Engine)](https://img.shields.io/badge/JavaScript-Google%20Earth%20Engine-F7DF1E.svg?logo=javascript&logoColor=black)](https://earthengine.google.com/)
+[![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)  
+
+![Last Updated](https://img.shields.io/github/last-commit/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar?label=Last%20Updated&color=2E8B57)
+
 
 This repository hosts the **training webpage** and **hands-on tutorials** to help users learn the fundamentals of the **Global Ecosystem Dynamics Investigation (GEDI)** spaceborne LiDAR, apply GEDI data to real-world ecosystems, and explore best practices for preparing context-aware, quality-filtered GEDI datasets.
 
 The training is developed by the [NASA EarthRISE](https://github.com/NASA-EarthRISE) team.  
 You can also view a live version of the training site here:  
 [nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/) :contentReference[oaicite:0]{index=0}
+
+## Citing & Credits
+
+If you use these tutorials or adapt parts thereof in your research or teaching, please cite:
 
 ---
 
@@ -135,7 +146,3 @@ We welcome contributions, feedback, and requests. You can support this repositor
 - Updating documentation or enhancing clarity of narrative text.
 
 When contributing, please follow GitHub best practices (issue templates, PR reviews, code style consistency).
-
-## Citing & Credits
-
-If you use these tutorials or adapt parts thereof in your research or teaching, please cite:
