@@ -1,10 +1,10 @@
-\---  
+---  
 layout: page  
 title: Vegetation Structural Insights From GEDI  
 parent: From Canopy Layers to Vertical Profiles  
 permalink: /vegetation-structure-metrics  
-nav\_order: 1  
-\---
+nav_order: 1  
+---
 
 # **Vegetation Structural Insights From GEDI**
 
