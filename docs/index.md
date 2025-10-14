@@ -209,9 +209,6 @@ Overview of topics covered in each module, respective format(s), and any technic
 | **Forest Biomass Estimation Using Data from Field, Airborne and Spaceborne Lidar** | Learn to develop local forest biomass model using field and remote sensing data and its application for AGB mapping | Self-paced lecture |  |
 | **Calibrating Field, Airborne and Spaceborne Lidar** | **Tutorial: Exercise1)** GEDI waveform simulation with airborne lidar using rGEDI. **Exercise 2\)** Development of local AGB model with field AGB and simulated ALS Relative Height metrics in R. **Exercise 3\)** Above ground biomass change mapping in Google Earth Engine. | Self-paced RStudio and Google Earth Engine tutorials | Github account | RStudio, RTools, rGEDI, and rGEDIsimulator package and program installations | Google Earth Engine Account |
 
-# 
-
-# 
 
 # ***May the Forest Be With You***
 
