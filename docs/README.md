@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/984860390.svg)](https://doi.org/10.5281/zenodo.17353797)
+
 # Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications - Webpage repository
 
 Welcome to the **Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications** — a comprehensive resource for learning how to work with GEDI (Global Ecosystem Dynamics Investigation) lidar data in ecosystem research and management.
@@ -80,8 +82,6 @@ This training was developed through collaboration among NASA, academic instituti
 ## Licensing & Use
 
 EarthRISE at NASA Marshall Space Flight Center with past work from SERVIR-Applied Science Team Grants from NASA ROSES 2022.
-
-Please cite these resources as:
 
 ---
 
