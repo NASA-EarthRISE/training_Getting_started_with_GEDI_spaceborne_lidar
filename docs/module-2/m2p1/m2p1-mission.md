@@ -12,7 +12,7 @@ nav_order: 1
 * Learn about the GEDI mission’s purpose and technology specifications.  
 * Quick overview of available data products, where they are located and what they represent.  
 * Introduction to GEDI’s application areas.
-[![alt text](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)
+[![Watch this video on the GEDI instrument](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)
 *Image Source: [NASA Scientific Visualization Studio (2018)](https://svs.gsfc.nasa.gov/13114/#media_group_324466).*
 
 ---
@@ -82,7 +82,7 @@ The [GEDI Mission webpage](https://gedi.umd.edu/data/download/), and product spe
 
 GEDI contributes a “missing piece,” the third-dimension, of surface structure tracking and plays a valuable role in weather forecasting, forest and fire management, biodiversity monitoring, and improvements of digital elevation models (DEMs). A continuously updated collection of GEDI-related research and other publications can be [found on the GEDI webpage and zotero group here](https://gedi.umd.edu/science/publications/).
 
-<video src="https://svs.gsfc.nasa.gov/vis/a010000/a014300/a014352/MOG\_forests\_NASA\_approved\_final\_1.mp4" width="320" height="240" controls></video>
+![Watch this video on GEDI mapping the USA](https://svs.gsfc.nasa.gov/vis/a010000/a014300/a014352/MOG\_forests\_NASA\_approved\_final\_1.mp4)](https://svs.gsfc.nasa.gov/vis/a010000/a014300/a014352/MOG\_forests\_NASA\_approved\_final\_1.mp4)
 
 *Source: “The White House recently challenged the stewards of the public lands of the United States, including the Forest Service and the Bureau of Land Management, to produce the first ever national inventory of mature and old growth forests. The next phase of the project will be augmented by NASA laser altimetry data from an instrument on the International Space Station. The GEDI instrument can provide detailed information on tree height and forest biomass, not just in the U.S., but all around the globe.” ([NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/14352/#media_group_312410)).*
 
@@ -125,7 +125,7 @@ The three-dimensional structure of forests is a key determinant of habitat quali
 
 Decisions regarding how ecosystems are managed are largely dictated by understanding of vegetation dynamics, as in *“how, where, and what kind of vegetation grows in a given place”* ([GEDI Mission](https://gedi.umd.edu/applications/forest-management-and-carbon-cycling/)). Individual or landscape scale tree mapping for these kinds of models are facilitated with GEDI canopy height, plant area, plant area volume density, foliage height diversity, structural complexity estimations. 
 
-![treestrata]([https://gedi.umd.edu/wp-content/uploads/2018/03/formind\_process.jpg](https://gedi.umd.edu/wp-content/uploads/2018/03/formind_process.jpg))
+![treestrata](https://gedi.umd.edu/wp-content/uploads/2018/03/formind\_process.jpg)
 
 *Source: “Forest demographic processes represented by an individual based dynamic vegetation model ([www.formind.org](http://www.formind.org/)). Forest structure measurements from GEDI can be used to improve representation of these and other processes that influence the future of forests” ([GEDI Mission](https://gedi.umd.edu/applications/forest-management-and-carbon-cycling/)).*
 
