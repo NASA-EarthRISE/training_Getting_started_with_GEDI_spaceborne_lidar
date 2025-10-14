@@ -1,11 +1,3 @@
----
-layout: page
-title: Why GEDI?
-parent:  Lasering in on the GEDI Mission
-permalink: /why-gedi
-nav_order: 1
----
-
 # **Why GEDI? Mission Objectives and Global Relevance**
 
 # **In this section:**
@@ -14,7 +6,7 @@ nav_order: 1
 * Quick overview of available data products, where they are located and what they represent.  
 * Introduction to GEDI’s application areas.
 
-\<video width="960" height="540" src="https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466" /\>  
+<video width="960" height="540" src="https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466" /\>  
 *Image Source: [NASA Scientific Visualization Studio (2018)](https://svs.gsfc.nasa.gov/13114/#media_group_324466).*
 
 ---
@@ -35,7 +27,7 @@ GEDI is a “geodetic-class,” light detection and ranging (lidar) laser system
 
 GEDI is unique since it is the first of its kind-a space-based lidar optimized to retrieve vegetation vertical structure. [Such a feat was accomplished by over 20 years of spaceborne laser altimetry and terrestrial ecology community advancements in lidar](https://plus.nasa.gov/series/leaders-in-lidar/).    
 ![][image3]  
-Source: [The GEDI Mission \- Calibration and Validation](https://gedi.umd.edu/science/calibration-validation/) 
+*Source: [The GEDI Mission \- Calibration and Validation](https://gedi.umd.edu/science/calibration-validation/)* 
 
 Other lidar or field based means of collecting vegetation height, canopy cover, plant area, plant area volume density, or foliage height diversity have various trade-offs regarding geographical coverage, spatial and temporal resolution, and density or ease of access and analysis:
 
@@ -55,45 +47,20 @@ A reference table for GEDI data product levels 1-4 and several derived products 
 
 **\***Temporal extent may be updated by version number, or specific datasets within the product may reflect different dates.
 
-| Data Products | Resolution | Spatial Coverage | \*Temporal Extent | Temporal Resolution | Algorithm Theoretical Based Document (ATBD) | Archive /
-Data Dictionary | Data Format |
+| Data Products | Resolution | Spatial Coverage | \*Temporal Extent | Temporal Resolution | Algorithm Theoretical Based Document (ATBD) | Archive /Data Dictionary | Data Format |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| GEDI01\_A-TX
-Transmitted Waveform Fitted Parameters
-
-GEDI01\_A-RX
-Received Waveform Fitted Parameters | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 2024-04-26 to Present | Varies | [*L1A-2A:*](https://lpdaac.usgs.gov/documents/581/GEDI_WF_ATBD_v1.0.pdf) Transmit and Receive Waveform Interpretation and Generation of L1A and L2A products | Not publicly available
-
-
-Not publicly available | HDF5 |
-| GEDI01\_B
-[Footprint Level Geolocated Waveform Data](https://www.earthdata.nasa.gov/search?keys=GEDI+L1B&sort_by=rel) | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 2024-04-26 to Present | Varies | [*L1B:*](https://lpdaac.usgs.gov/documents/579/GEDI__WFGEO_ATBD_v1.0.pdf) Waveform Geolocation for L1 and L2 Products | LP DAAC | HDF5 |
-| GEDI02\_A 
-[Footprint Level Elevation and Height Metrics:](https://www.earthdata.nasa.gov/data/catalog/lpcloud-gedi02-a-002) 
-
-*Ground elevation, canopy top height, relative height (RH) metrics.* | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 2024-04-26 to Present | Varies | [*L1A-2A:*](https://lpdaac.usgs.gov/documents/581/GEDI_WF_ATBD_v1.0.pdf) Transmit and Receive Waveform Interpretation and Generation of L1A and L2A products | LP DAAC | HDF5 |
-| GEDI02\_B
-[Footprint Level Canopy Cover and Vertical Profile Metrics](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L2B): 
-
-*Canopy Cover Fraction (CCF), CCF profile, Plant Area Index (PAI), PAI profile, Plant Area Volume Density (PAVD) profile, Foliage Height Diversity (FHD).* | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 2024-04-26 to Present | Varies | [*L2B:*](https://lpdaac.usgs.gov/documents/588/GEDI_FCCVPM_ATBD_v1.0.pdf) Footprint Canopy Cover and Vertical Profile Metrics | LP DAAC | HDF5 |
-| GEDI03
-[Gridded Level 2 Land Surface metrics](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L3): 
-
-*Mean and standard deviation of RH100 and ground elevation, counts of laser footprints within each grid.* | 1 km (\~0.6 mi) grids | N: 52, S: \-52, E: 180, W: \-180 | 2019-04-18 to 2023-03-22 | Varies | *L3:* Gridded Land Surface Metrics | ORNL DAAC | GeoTIFF |
-| GEDI04\_A
-[Footprint Level Above Ground Biomass Density (AGBD)](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4A) | 25 m (\~82 ft) diameter | N: 55.8, S: \-53, E: 180, W: \-180 | 2019-04-17 to 2025-03-19 | Varies | *L4A:* Footprint Above Ground Biomass Density | ORNL DAAC | HDF5 |
-| GEDI04\_B
-[Gridded Above Ground Biomass Density (AGBD)](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4B) | 1 km (\~0.6 mi) grids | N: 52, S: \-52, E: 180, W: \-180 | 2019-04-18 to 2023-03-16 | Varies | *L4B:* Gridded Biomass Product | ORNL DAAC | GeoTIFF |
-| GEDI04\_C
-[Footprint Level Waveform Structural Complexity Index](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4C) | 25 m (\~82 ft) diameter | N: 55.8, S: \-53, E: 180, W: \-180 | 2019-04-17 to 2025-03-19 | Varies | *L4C:* Footprint waveform structural complexity index | ORNL DAAC | HDF5 |
-| Derived Product
-[Level 4B Country-level Summaries of Above Ground Biomass](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4B%20Country-level%20) | Country level | N: 52, S: \-52, E: 180, W: \-180 | 2019-04-18 to 2023-03-16 | Varies | Country estimates of mean above ground biomass density and total above ground biomass stocks | ORNL DAAC | GeoTIFF |
-| Derived Product
-[Pantropical Forest Height and Biomass from GEDI and TanDEM-X Data Fusion](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20pantropical) | 25 m, 100 m | Mexico, Gabon, French Guiana, Amazonia | 2011-01-06 to 2021-08-18 | Varies | [Mapping large-scale pantropical forest canopy height by integrating GEDI lidar and TamDEM-X InSAR data](https://www.sciencedirect.com/science/article/pii/S0034425724005601) | ORNL DAAC | GeoTIFF |
-| Derived Product
-[Global Vegetation Height Metrics from GEDI and ICESat-2](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20and%20ICESat) | 100 m, 200 m, 500 m, 1000 m | N: 90, S: \-90, E: 180, W: \-180 | 2019-01-01 to 2022-12-31 | Varies |  | ORNL DAAC | GeoTIFF |
-| Derived Product
-[Gridded GEDI Vegetation Structure Metrics and Biomass Density at Multiple Resolutions](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20gridded%20vegetation%20structure) | 1 km, 6 km, and 12 km grids | N: 52.2, S: \-52.2, E: 180, W: \-180 | 2019-04-17 to 2023-03-16 | Varies |  | ORNL DAAC | GeoTIFF |
+| **GEDI01\_A-TX**Transmitted Waveform Fitted Parameters & **GEDI01\_A-RX**Received Waveform Fitted Parameters | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 & 2024-04-26 to Present | Varies | [*L1A-2A:*](https://lpdaac.usgs.gov/documents/581/GEDI_WF_ATBD_v1.0.pdf) Transmit and Receive Waveform Interpretation and Generation of L1A and L2A products | Not publicly available | HDF5 |
+| **GEDI01\_B:** [Footprint Level Geolocated Waveform Data](https://www.earthdata.nasa.gov/search?keys=GEDI+L1B&sort_by=rel) | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 & 2024-04-26 to Present | Varies | [*L1B:*](https://lpdaac.usgs.gov/documents/579/GEDI__WFGEO_ATBD_v1.0.pdf) Waveform Geolocation for L1 and L2 Products | LP DAAC | HDF5 |
+| **GEDI02\_A:** [Footprint Level Elevation and Height Metrics](https://www.earthdata.nasa.gov/data/catalog/lpcloud-gedi02-a-002) – *Ground elevation, canopy top height, relative height (RH) metrics.* | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 & 2024-04-26 to Present | Varies | [*L1A-2A:*](https://lpdaac.usgs.gov/documents/581/GEDI_WF_ATBD_v1.0.pdf) Transmit and Receive Waveform Interpretation and Generation of L1A and L2A products | LP DAAC | HDF5 |
+| **GEDI02\_B:** [Footprint Level Canopy Cover and Vertical Profile Metrics](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L2B) *– Canopy Cover Fraction (CCF), CCF profile, Plant Area Index (PAI), PAI profile, Plant Area Volume Density (PAVD) profile, Foliage Height Diversity (FHD).* | 25 m (\~82 ft) diameter | N: 54, S: \-54, E: 180, W: \-180 | 2019-04-04 to 2023-03-16 & 2024-04-26 to Present | Varies | [*L2B:*](https://lpdaac.usgs.gov/documents/588/GEDI_FCCVPM_ATBD_v1.0.pdf) Footprint Canopy Cover and Vertical Profile Metrics | LP DAAC | HDF5 |
+| **GEDI03:** [Gridded Level 2 Land Surface metrics](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L3) *– Mean and standard deviation of RH100 and ground elevation, counts of laser footprints within each grid.* | 1 km (\~0.6 mi) grids | N: 52, S: \-52, E: 180, W: \-180 | 2019-04-18 to 2023-03-22 | Varies | *L3:* Gridded Land Surface Metrics | ORNL DAAC | GeoTIFF |
+| **GEDI04\_A:** [Footprint Level Above Ground Biomass Density (AGBD)](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4A) | 25 m (\~82 ft) diameter | N: 55.8, S: \-53, E: 180, W: \-180 | 2019-04-17 to 2025-03-19 | Varies | *L4A:* Footprint Above Ground Biomass Density | ORNL DAAC | HDF5 |
+| **GEDI04\_B:** [Gridded Above Ground Biomass Density (AGBD)](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4B) | 1 km (\~0.6 mi) grids | N: 52, S: \-52, E: 180, W: \-180 | 2019-04-18 to 2023-03-16 | Varies | *L4B:* Gridded Biomass Product | ORNL DAAC | GeoTIFF |
+| **GEDI04\_C:** [Footprint Level Waveform Structural Complexity Index](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4C) | 25 m (\~82 ft) diameter | N: 55.8, S: \-53, E: 180, W: \-180 | 2019-04-17 to 2025-03-19 | Varies | *L4C:* Footprint waveform structural complexity index | ORNL DAAC | HDF5 |
+| **Derived Product:** [Level 4B Country-level Summaries of Above Ground Biomass](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20L4B%20Country-level%20) | Country level | N: 52, S: \-52, E: 180, W: \-180 | 2019-04-18 to 2023-03-16 | Varies | Country estimates of mean above ground biomass density and total above ground biomass stocks | ORNL DAAC | GeoTIFF |
+| **Derived Product:** [Pantropical Forest Height and Biomass from GEDI and TanDEM-X Data Fusion](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20pantropical) | 25 m, 100 m | Mexico, Gabon, French Guiana, Amazonia | 2011-01-06 to 2021-08-18 | Varies | [Mapping large-scale pantropical forest canopy height by integrating GEDI lidar and TamDEM-X InSAR data](https://www.sciencedirect.com/science/article/pii/S0034425724005601) | ORNL DAAC | GeoTIFF |
+| **Derived Product:** [Global Vegetation Height Metrics from GEDI and ICESat-2](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20and%20ICESat) | 100 m, 200 m, 500 m, 1000 m | N: 90, S: \-90, E: 180, W: \-180 | 2019-01-01 to 2022-12-31 | Varies |  | ORNL DAAC | GeoTIFF |
+| **Derived Product:** [Gridded GEDI Vegetation Structure Metrics and Biomass Density at Multiple Resolutions](https://www.earthdata.nasa.gov/data/catalog?keyword=GEDI%20gridded%20vegetation%20structure) | 1 km, 6 km, and 12 km grids | N: 52.2, S: \-52.2, E: 180, W: \-180 | 2019-04-17 to 2023-03-16 | Varies |  | ORNL DAAC | GeoTIFF |
 
 #### ***How do I access the data?*** 
 
@@ -108,7 +75,7 @@ The [GEDI Mission webpage](https://gedi.umd.edu/data/download/), and product spe
 
 GEDI contributes a “missing piece,” the third-dimension, of surface structure tracking and plays a valuable role in weather forecasting, forest and fire management, biodiversity monitoring, and improvements of digital elevation models (DEMs). A continuously updated collection of GEDI-related research and other publications can be [found on the GEDI webpage and zotero group here](https://gedi.umd.edu/science/publications/).
 
-[https://svs.gsfc.nasa.gov/vis/a010000/a014300/a014352/MOG\_forests\_NASA\_approved\_final\_1.mp4](https://svs.gsfc.nasa.gov/vis/a010000/a014300/a014352/MOG_forests_NASA_approved_final_1.mp4) 
+\<video width="960" height="540" src="[https://svs.gsfc.nasa.gov/vis/a010000/a014300/a014352/MOG\_forests\_NASA\_approved\_final\_1.mp4](https://svs.gsfc.nasa.gov/vis/a010000/a014300/a014352/MOG_forests_NASA_approved_final_1.mp4)" /\>
 
 *Source: “The White House recently challenged the stewards of the public lands of the United States, including the Forest Service and the Bureau of Land Management, to produce the first ever national inventory of mature and old growth forests. The next phase of the project will be augmented by NASA laser altimetry data from an instrument on the International Space Station. The GEDI instrument can provide detailed information on tree height and forest biomass, not just in the U.S., but all around the globe.” ([NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/14352/#media_group_312410)).*
 
