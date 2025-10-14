@@ -11,9 +11,11 @@ nav_order: 8
 
 You have completed the training series on the fundamentals of GEDI for applying GEDI to monitoring and map vegetated ecosystems. This four-module GEDI training series provides participants with the knowledge, tools, and context needed to meaningfully engage with the GEDI mission and its groundbreaking lidar data products. By building a strong foundation in the principles of lidar remote sensing, data acquisition, and analysis workflows, participants are empowered to explore GEDI’s 3-dimensional measurements of vegetation structure and biomass within their own ecosystems of interest. Through the integration of case studies, open-source tools, and applied examples from global research efforts, this training bridges the gap between data theory and real-world application. Ultimately, the goal is to foster a growing community of practitioners and researchers who can leverage GEDI insights to advance sustainable land management, improve ecosystem monitoring, and contribute to our collective understanding of Earth’s dynamic forests in a changing climate. We need more users like yourself to continue to build upon and benefit from innovation and improving data-driven ecosystem management\!
 
-# **Post-Survey**
+# **Post-Questionnaire**
 
-[Take the Post Questionnaire](https://docs.google.com/forms/d/1Zx3tLbnPDPn0kFQmllduzEZSqROms3r01KcqL00rBJw/edit){: .btn .btn-green }
+Please take a moment to fill out this post-training questionnaire.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTDHuWuUd9V5fOyAJaE9kaXzZZCgRyf972QhexmhFciJsSSw/viewform?embedded=true" width="640" height="4883" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 # **Stay Tuned:**
 
