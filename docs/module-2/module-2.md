@@ -8,7 +8,7 @@ nav_order: 5
 
 # **Module 2 Overview**
 
-![][https://earthdata.nasa.gov/s3fs-public/2023-03/gedi_logo_large_news.png?VersionId=j5D643UzXIYm66MM_Pd.A0UuGVwuAMIZ]  
+![GEDI Mission Logo](https://earthdata.nasa.gov/s3fs-public/2023-03/gedi_logo_large_news.png?VersionId=j5D643UzXIYm66MM_Pd.A0UuGVwuAMIZ)  
 *NASA Global Ecosystem Dynamics Investigation (GEDI) spaceborne lidar mission logo.* 
 
 # **A Deep Dive into GEDI:**  **From Mission Design to Ecological Insights**
