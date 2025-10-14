@@ -12,8 +12,9 @@ nav_order: 1
 * Learn about the GEDI mission’s purpose and technology specifications.  
 * Quick overview of available data products, where they are located and what they represent.  
 * Introduction to GEDI’s application areas.
-[![Watch this video on the GEDI instrument](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)
-*Image Source: [NASA Scientific Visualization Studio (2018)](https://svs.gsfc.nasa.gov/13114/#media_group_324466).*
+
+[Watch this video on the GEDI instrument](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)
+*Source: [NASA Scientific Visualization Studio (2018)](https://svs.gsfc.nasa.gov/13114/#media_group_324466).*
 
 ---
 
@@ -28,7 +29,7 @@ The Global Ecosystem Dynamics Investigation (GEDI) produces high resolution lase
 
 GEDI is a “geodetic-class,” light detection and ranging (lidar) laser system. Three lasers that produce eight parallel ground tracks each fire 242 times per second to illuminate a **25m footprint** over the surface where the vertical structure is measured. There are about **600m between each of the eight ground tracks**, where each **footprint is sampled 60m apart** along the track. Tens of billions of cloud-free observations have been collected. Since GEDI is a sensor aboard the International Space Station (ISS), it follows the station’s orbital path, and collects observations **between 51.6° N & S latitude**. The mission collected data from **April 4, 2019 \- March 16, 2023**. A period of hibernation when **no data was collected** ensued from **March 16, 2023 \- April 26, 2024**. It has resumed activity since then, and is set to continue until **\~2030**.
 
-![ISS](https://gedi.umd.edu/wp-content/uploads/2018/04/iss\_jem\_diag\_combo\_v3-1024x903.jpg)  
+[![ISS](https://gedi.umd.edu/wp-content/uploads/2018/04/iss\_jem\_diag\_combo\_v3-1024x903.jpg)](https://gedi.umd.edu/wp-content/uploads/2018/04/iss\_jem\_diag\_combo\_v3-1024x903.jpg)  
 *Source: [GEDI Mission.](https://gedi.umd.edu/instrument/instrument-overview/)*
 
 GEDI is unique since it is the first of its kind-a space-based lidar optimized to retrieve vegetation vertical structure. [Such a feat was accomplished by over 20 years of spaceborne laser altimetry and terrestrial ecology community advancements in lidar](https://plus.nasa.gov/series/leaders-in-lidar/).    
