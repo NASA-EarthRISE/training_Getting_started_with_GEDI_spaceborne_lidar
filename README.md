@@ -17,7 +17,7 @@ You can also view a live version of the training site here:
 
 ## Citing & Credits
 
-If you use these tutorials or adapt parts thereof in your research or teaching, please cite:
+If you use these tutorials or adapt parts thereof in your research or teaching, please cite: jimenezSA, Tim Mayer, agoberna, Billy Ashmall, Emil Cherrington, & Christine Evans. (2025). NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar: v1.0.0 (First-release). Zenodo. https://doi.org/10.5281/zenodo.17353798
 
 ---
 
