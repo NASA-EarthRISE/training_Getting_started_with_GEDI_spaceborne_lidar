@@ -12,8 +12,7 @@ nav_order: 1
 * Learn about the GEDI mission’s purpose and technology specifications.  
 * Quick overview of available data products, where they are located and what they represent.  
 * Introduction to GEDI’s application areas.
-
-<video src="https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466" width="320" height="240" controls></video>
+[![alt text](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466)
 *Image Source: [NASA Scientific Visualization Studio (2018)](https://svs.gsfc.nasa.gov/13114/#media_group_324466).*
 
 ---
