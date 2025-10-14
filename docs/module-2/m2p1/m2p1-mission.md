@@ -1,3 +1,10 @@
+---
+layout: page
+title: Why GEDI? 
+parent: Lasering in on the GEDI Mission
+permalink: /why-gedi
+nav_order: 1
+---
 # **Why GEDI? Mission Objectives and Global Relevance**
 
 # **In this section:**
