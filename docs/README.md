@@ -12,10 +12,10 @@ GEDI is a spaceborne full-waveform lidar instrument designed to measure vertical
 
 This training is organized into four modules that guide users from fundamentals to advanced applications:
 
-- **Module 1**: Introduction to full waveform lidar and fundamental concepts  
-- **Module 2**: In-depth exploration of GEDI mission, data products, and structure metrics  
-- **Module 3**: Biomass change estimation using the OBIWAN API  
-- **Module 4**: Local forest biomass modeling integrating field, airborne, and spaceborne data :contentReference[oaicite:2]{index=2}  
+- **Module 1**: Introduction to full waveform lidar and fundamental concepts with tutorials using google colab notebooks in python.
+- **Module 2**: In-depth exploration of GEDI mission, data products, and structure metrics with tutorials using google colab notebooks in python.
+- **Module 3**: Biomass change estimation using the OBIWAN API with google colab notebook in python and Google Earth Engine application (javascript).
+- **Module 4**: Local forest biomass modeling integrating field, airborne, and spaceborne data in R and javascript in RStudio and Google Earth Engine. :contentReference[oaicite:2]{index=2} 
 
 Each module includes background lectures, tutorials (Python, R, or Google Colab / GEE), and exercises. :contentReference[oaicite:3]{index=3}
 
@@ -59,13 +59,13 @@ That said, the training provides background content to help users build the need
 
 ---
 
-## 🧑‍💻 How to Use / Get Started
+## How to Use / Get Started
 
 1. **Visit the live site** at  
    https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/  
 2. Navigate via the module tabs in the sidebar to explore lectures, tutorials, and exercises  
 3. Download or clone the repository to access the code notebooks and supplementary materials  
-4. Set up your workflow environment (Python, R, Google Colab, GEE, etc.) as appropriate  
+4. Set up your workflow environment (Google Colab/Python, R, GEE) as appropriate  
 5. Work through the notebooks and tutorials in tandem with the lecture material  
 6. Submit questions via the “Ask a Question” link on the site if you get stuck :contentReference[oaicite:9]{index=9}  
 
@@ -73,7 +73,7 @@ That said, the training provides background content to help users build the need
 
 ## Contributors & Acknowledgments
 
-This training was developed through collaboration among NASA, academic institutions, and scientists. Lead contributors include:
+This training was developed through collaboration among NASA, academic institutions, and other scientists. Lead contributors include:
 
 - Stephanie Jiménez, Tim Mayer, Naiara Pinto, Savannah Cooley, Sean Healey, Christine Evans, Izaya Numata, Kevin Horn, Diana West, and many others :contentReference[oaicite:10]{index=10}  
 - Acknowledgement to supporting contributors and institutions listed on the site :contentReference[oaicite:11]{index=11}  
@@ -88,11 +88,6 @@ Please cite these resources as:
 
 ---
 
-## ❓ Questions & Support
+## Questions & Support
 
 If you have any questions, need help with exercises, or want to suggest improvements, please use the **Ask a Question** feature on the website. :contentReference[oaicite:12]{index=12}
-
----
-
-Feel free to edit or augment this README to match your style, add images or badges, or include usage instructions for local development. Would you like me to generate a version with a badge and more visual layout for your repository’s root?
-::contentReference[oaicite:13]{index=13}
