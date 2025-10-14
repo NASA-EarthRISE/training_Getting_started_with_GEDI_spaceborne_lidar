@@ -8,7 +8,7 @@ nav_order: 1
 
 # **GEDI’s Biomass Estimation Approach**
 
-[https://svs.gsfc.nasa.gov/vis/a010000/a014800/a014804/biomass\_gedi\_icesat2\_global\_4k\_colorbar.webm](https://svs.gsfc.nasa.gov/vis/a010000/a014800/a014804/biomass_gedi_icesat2_global_4k_colorbar.webm)   
+[Visualize GEDI and ICESat-2 Biomass Estimates](https://svs.gsfc.nasa.gov/vis/a010000/a014800/a014804/biomass_gedi_icesat2_global_4k_colorbar.webm){: .btn .btn-green }
 *Source: [Video from NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/vis/a010000/a014800/a014804/biomass_gedi_icesat2_global_4k_colorbar.webm).*
 
 # **In this section:**
@@ -29,7 +29,7 @@ Beyond carbon, biomass distribution strongly correlates with biodiversity patter
 
 Understanding biomass gives us the foundation for why GEDI data is important: it’s the currency of carbon storage, ecosystem health, and climate change.
 
-#### ***Biomass is the total mass of living organisms in a given area or ecosystem, often expressed as carbon mass (e.g., Mg C/ha).***
+#### **Biomass is the total mass of living organisms in a given area or ecosystem, often expressed as carbon mass (e.g., Mg C/ha).**
 
 ## **Main biomass components:** 
 
@@ -620,8 +620,6 @@ GEDI alone does not provide wall-to-wall coverage, but it anchors global biomass
 #### **Global biomass monitoring isn’t just about one dataset, it’s about comparing and combining many. GEDI plays a critical role in anchoring these ensemble approaches to ground-truth-like lidar observations**
 
 The SERVIR Carbon Pilot (S-CAP) was a USAID & NASA initiative that provides an accessible [platform](https://s-cap.servirglobal.net/) for comparing, analyzing, and applying multiple global, regional, and national above ground biomass (AGB) and land-cover datasets in order to support national decision-making on carbon monitoring. Through its web-based interface, S-CAP bundles an ensemble of biomass products, harmonizes them to common formats, and enables users to calculate carbon stocks and emissions using transparent and IPCC-compatible methods. 
-
-![][image15]
 
 The central aim of the pilot is to understand how and why global biomass products disagree, to provide guidance on dataset selection or integration, and to improve reproducibility and usability for reporting frameworks such as REDD+ (SERVIR, 2024; Cherrington et al., 2024).
 

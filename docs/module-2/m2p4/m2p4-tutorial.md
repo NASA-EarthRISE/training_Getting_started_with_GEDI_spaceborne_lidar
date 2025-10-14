@@ -23,17 +23,17 @@ nav_order: 2
 
 # **Tutorial Overview**
 
-* ### Environment Setup and Data Architecture
+* Environment Setup and Data Architecture
 
-* ### Automated Data Acquisition and Processing Pipeline
+* Automated Data Acquisition and Processing Pipeline
 
-* ### Data Quality Assessment and Filtering Strategies
+* Data Quality Assessment and Filtering Strategies
 
-* ### Advanced Data Visualization and Pattern Recognition
+* Advanced Data Visualization and Pattern Recognition
 
-* ### Interpretation Framework and Validation Approaches
+* Interpretation Framework and Validation Approaches
 
-* ### Reproducible Workflow Documentation
+* Reproducible Workflow Documentation
 
 ## **Expected Outcomes and Deliverables**
 

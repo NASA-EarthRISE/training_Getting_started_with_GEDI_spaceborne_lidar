@@ -19,7 +19,7 @@ OBIWAN is still under construction in many parts of the country and world.  A go
 
 # **References**
 
-#### **Statistical estimation of biomass using GEDI:** Dubayah, R., Armston, J., Healey, S.P., Bruening, J.M., Patterson, P.L., Kellner, J.R., Duncanson, L., Saarela, S., Ståhl, G., Yang, Z. and Tang, H., 2022\. GEDI launches a new era of biomass inference from space. *Environmental Research Letters*, *17*(9), p.095001.
+Statistical estimation of biomass using GEDI: Dubayah, R., Armston, J., Healey, S.P., Bruening, J.M., Patterson, P.L., Kellner, J.R., Duncanson, L., Saarela, S., Ståhl, G., Yang, Z. and Tang, H., 2022\. GEDI launches a new era of biomass inference from space. *Environmental Research Letters*, *17*(9), p.095001.
 
 Patterson, P.L., Healey, S.P., Ståhl, G., Saarela, S., Holm, S., Andersen, H.E., Dubayah, R.O., Duncanson, L., Hancock, S., Armston, J. and Kellner, J.R., 2019\. Statistical properties of hybrid estimators proposed for GEDI—NASA’s global ecosystem dynamics investigation. *Environmental Research Letters*, *14*(6), p.065007.
 

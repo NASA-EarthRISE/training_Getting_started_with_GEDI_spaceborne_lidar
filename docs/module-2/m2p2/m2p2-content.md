@@ -17,8 +17,7 @@ nav_order: 1
 
   
 ---
-
-# [https://www.youtube.com/watch?v=uKfB7kjowh0](https://www.youtube.com/watch?v=uKfB7kjowh0)
+[Watch the visualization of vegetation structure data](https://www.youtube.com/watch?v=uKfB7kjowh0){: .btn .btn-green }
 
 *Source: Forest height visualization from [NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/4950).*
 

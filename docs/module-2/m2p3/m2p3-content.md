@@ -1,10 +1,10 @@
----
-layout: page
-title: Vegetation Structural Insights From GEDI
-parent: From Canopy Layers to Vertical Profiles
-permalink: /vegetation-structure-metrics
-nav_order: 1
----
+\---  
+layout: page  
+title: Vegetation Structural Insights From GEDI  
+parent: From Canopy Layers to Vertical Profiles  
+permalink: /vegetation-structure-metrics  
+nav\_order: 1  
+\---
 
 # **Vegetation Structural Insights From GEDI**
 
@@ -31,8 +31,9 @@ For example, it assumes that tree leaves and branches are **randomly arranged** 
 
 **Table 1\.** Both variables are found in the BEAMXXXX/ main group as shown in the L2B Data Dictionary. The Pgap along the profile is found as \`pgap\_theta\_z\` where z is the specific height to the ground. 
 
-| \`pgap\_theta\` | Total Pgap(theta) | Estimated Pgap(theta) for the selected L2A algorithm |
+| Variable | Name | Definition |
 | :---- | :---- | :---- |
+| \`pgap\_theta\` | Total Pgap(theta) | Estimated Pgap(theta) for the selected L2A algorithm |
 | \`pgap\_theta\_z\` | Directional gap probability profile | Directional gap probability profile (pgap\_theta\_z \= DN / 10000\) |
 
 Advanced researchers looking to reconstruct the vegetation structure metrics may choose to use this variable. The background is given here to provide a brief overview of the theory and assumptions made for the resulting metrics derived from probability gap calculations to help understand their advantages and limitations.
@@ -60,8 +61,9 @@ Total canopy cover previously described, is a single aggregated value for the ob
 
 **Table 2\.** Both metrics are found in the BEAMXXXX/ main group as shown in the L2B Data Dictionary. The cumulative cover profile is found as \`cover\_z\` where z is the specific height to the ground. \`z \= 1\` refers to cover from 0-5m, \`z=2\` from 5-10m, etc. \`cover\` is a singular value, while \`cover\_z\` is an array of values for each of the 30 height bins.
 
-| \`cover\` | Total cover | Total canopy cover, defined as the percent of the ground covered by the vertical projection of canopy material |
+| Variable | Name | Definition |
 | :---- | :---- | :---- |
+| \`cover\` | Total cover | Total canopy cover, defined as the percent of the ground covered by the vertical projection of canopy material |
 | \`cover\_z\` | Cover vertical profile | Cumulative canopy cover from height (z) to ground (z=0) with a vertical step size of dZ, where cover(z \> z\_max) \= 0 |
 
 # **L2B Plant Area Index (PAI)**
@@ -76,8 +78,9 @@ The L2B product provides the vertical PAI profile at 5m vertical resolutions, ch
 
 **Table 3\.** Both metrics are found in the BEAMXXXX/ main group as shown in the L2B Data Dictionary. The cumulative PAI profile is found as \`pai\_z\` where z is the specific height to the ground. \`z \= 1\` refers to cover from 0-5m, \`z=2\` from 5-10m, etc. \`pai\` is a singular value, while \`pai\_z\` is an array of values for each of the 30 height bins.
 
-| \`pai\` | Total Plant Area index m2/m2 | Total plant area index |
+| Variable | Name | Definition |
 | :---- | :---- | :---- |
+| \`pai\` | Total Plant Area index m2/m2 | Total plant area index |
 | \`pai\_z\` | Plant Area Index profile m2/m2 | Vertical PAI profile from canopy height (z) to ground (z=0) with a vertical step size of dZ, where cover(z \> z\_max) \= 0 |
 
 ## **Why Plant Area and not Leaf Area?** 
@@ -133,8 +136,9 @@ The Plant Area Volume Density (PAVD) dataset is a canopy structural index that q
 
 **Table 4\.** The metric is found in the BEAMXXXX/ main group as shown in the L2B Data Dictionary. The cumulative PAVD profile is found as \`pavd\_z\` where z is the specific height to the ground. \`z \= 1\` refers to cover from 0-5m, \`z=2\` from 5-10m, etc. and is formatted as an array of values for each of the 30 height bins.
 
-| \`pavd\_z\` | Plant Area Volume Density m2/m3 | Vertical Plant Area Volume Density profile with a vertical step size of dZ |
+| Variable | Name | Definition |
 | :---- | :---- | :---- |
+| \`pavd\_z\` | Plant Area Volume Density m2/m3 | Vertical Plant Area Volume Density profile with a vertical step size of dZ |
 
 # **L2B Foliage Height Diversity (FHD)**
 
@@ -144,8 +148,9 @@ Traditionally, FHD measurements are limited to a few plot samplings due to high 
 
 **Table 5\.** The metric is found in the BEAMXXXX/ main group as shown in the L2B Data Dictionary. FHD is an index with a singular value.
 
-| \`fhd\_normal\` | Foliage Height Diversity | Foliage height diversity index calculated by vertical foliage profile normalized by total plant area index. |
+| Variable | Name | Definition |
 | :---- | :---- | :---- |
+| \`fhd\_normal\` | Foliage Height Diversity | Foliage height diversity index calculated by vertical foliage profile normalized by total plant area index. |
 
 # **L4C Waveform Structural Complexity (WSCI)**
 
@@ -157,8 +162,9 @@ The quality of the L4C dataset is based on the L2A algorithm and quality flag wi
 
 **Table 6\.** The metric is found in the BEAMXXXX/ main group as shown in the L4C Data Dictionary. WSCI is found as a total index value, as “z” for along the vertical profile, and similar to the other footprint data products, includes the algorithm setting group alternative results with suffix \`\_aN\` for each of the variables listed in the table.
 
-| \`wsci\` | Predicted 3D canopy entropy from the corresponding Plant Functional Type (PFT) model |
+| Variable | Definition |
 | :---- | :---- |
+| \`wsci\` | Predicted 3D canopy entropy from the corresponding Plant Functional Type (PFT) model |
 | \`wsci\_pi\_lower\` | Lower prediction interval at 95% confidence |
 | \`wsci\_pi\_upper\` | Upper prediction interval at 95% confidence |
 | \`wsci\_quality\_flag\` | Flag simplifying selection of most useful WSCI predictions |
