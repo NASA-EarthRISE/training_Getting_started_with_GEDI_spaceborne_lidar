@@ -1,4 +1,4 @@
-# Getting Started with GEDI Spaceborne LiDAR — Training Repository
+# Getting Started with GEDI Spaceborne Lidar for Ecosystem Applications — Training Repository
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)  
 [![R](https://img.shields.io/badge/R-4.x-blue.svg)](https://www.r-project.org/)
