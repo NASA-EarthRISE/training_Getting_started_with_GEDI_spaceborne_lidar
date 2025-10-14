@@ -51,6 +51,8 @@ Other lidar or field based means of collecting vegetation height, canopy cover, 
 
 # **Global Ecosystem Dynamics Investigation Spaceborne Lidar Quick Look Products**
 
+[View the GEDI Data Product Reference Tables](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/blob/main/GEDI_Product_Reference_Tables.pdf){: .btn .btn-green }
+
 A reference table for GEDI data product levels 1-4 and several derived products and their homepages are listed here for access to documentation, NASA access and visualization tools, and other resources.
 
 **\***Temporal extent may be updated by version number, or specific datasets within the product may reflect different dates.

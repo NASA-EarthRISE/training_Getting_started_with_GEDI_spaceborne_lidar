@@ -35,6 +35,7 @@ For Exercises 1 and 2, RStudio (or R) is used and the study site is Acre, Brazil
 [README](https://drive.google.com/drive/folders/1Ma8rHoC8-f8pUP0qLHF6zXDGFmH6AX80){: .btn .btn-green }
 
 # **Now run-through the entire process yourself:**
+[Review presentation slides](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/blob/main/GEDI_training_Numata.pdf){: .btn .btn-green }
 
 [Exercise 1](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/tree/main/tutorials/Local_biomass_modelling/Exercise_1){: .btn .btn-green }
 
