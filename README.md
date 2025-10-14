@@ -13,7 +13,7 @@ This repository hosts the **training webpage** and **hands-on tutorials** to hel
 
 The training is developed by the [NASA EarthRISE](https://github.com/NASA-EarthRISE) team.  
 You can also view a live version of the training site here:  
-[nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/) :contentReference[oaicite:0]{index=0}
+[nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/)
 
 ## Citing & Credits
 
