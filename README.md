@@ -78,12 +78,12 @@ Here is an outline of the main directories and files:
    ├── Comparing_GEDI_L2B_with_highres_lidar_sewanee.ipynb ← Module 2 correlate GEDI with airborne lidar
    
    ├── Local_biomass_modelling/ ← Module 4 correlating biomass with local survey data and airborne lidar
+   
+   - Exercise 1 ← R scripts and supporting datasets for GEDI simulation
 
-      ├── Exercise 1 ← R scripts and supporting datasets for GEDI simulation
+   - Exercise 2 ← R script for Random Forest Modelling
 
-      ├── Exercise 2 ← R script for Random Forest Modelling
-
-      ├── Exercise 3 ← Google Earth Engine javascript for biomass time series and CCDC land cover maps
+   - Exercise 3 ← Google Earth Engine javascript for biomass time series and CCDC land cover maps
    
 ├── README.md ← This file
 
