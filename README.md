@@ -162,13 +162,13 @@ Overview of topics covered in each module, respective format(s), and any technic
 
 This training contains modules and tutorials that build throughout the course. Below is a high-level overview:
 
-Module	Focus	Description / Key Outcomes
-Module 1	[Introduction & lidar basics	(Placeholder) Orientation, LiDAR fundamentals, GEDI mission overview](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-applications-of-waveform-lidar)
-Module 2	[Forest structure (L2B)	Work with GEDI L2B products — waveform, footprint metrics, canopy height, etc.](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-vegetation-structure)
-Module 2	[PAI, GEDI-LAS comparisons	Compare GEDI metrics with local LiDAR or field data](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/blob/main/tutorials/Comparing_GEDI_L2B_with_highres_lidar_sewanee.ipynb)
-Module 2	[Biomass estimation (L4)	Use GEDI Level-4 biomass products, build biomass models](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-biomass)
-Module 3  [Biomass Change with OBIWAN]([https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/module-3-overview](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-obiwan-api))
-Module 4	[Advanced calibration for local biomass](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-calibrate-spaceborne-lidar)
+Module, Focus	Description / Key Outcomes
+- Module 1	[Introduction & lidar basics	(Placeholder) Orientation, LiDAR fundamentals, GEDI mission overview](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-applications-of-waveform-lidar)
+- Module 2	[Forest structure (L2B)	Work with GEDI L2B products — waveform, footprint metrics, canopy height, etc.](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-vegetation-structure)
+- Module 2	[PAI, GEDI-LAS comparisons	Compare GEDI metrics with local LiDAR or field data](https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/blob/main/tutorials/Comparing_GEDI_L2B_with_highres_lidar_sewanee.ipynb)
+- Module 2	[Biomass estimation (L4)	Use GEDI Level-4 biomass products, build biomass models](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-biomass)
+- Module 3  [Biomass Change with OBIWAN]([https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/module-3-overview](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-obiwan-api))
+- Module 4	[Advanced calibration for local biomass](https://nasa-earthrise.github.io/training_Getting_started_with_GEDI_spaceborne_lidar/tutorial-calibrate-spaceborne-lidar)
 
 Each notebook includes:
 - Background context
