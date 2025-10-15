@@ -117,10 +117,10 @@ We recommend using a virtual environment (venv, conda, etc.) to isolate dependen
 ## Usage Guidelines & Tips
 
 Data Access
-- Many modules download GEDI data (L2 or L4) or atmospheric, land-cover or topology auxiliary layers (e.g. SRTM, DEMs). Ensure your internet connection is stable and that you have sufficient disk space.
+- Many modules download GEDI data (L2 or L4). Ensure your internet connection is stable and that you have sufficient disk space.
 
 Quality Filtering
-- GEDI data include quality flags (e.g. sensitivity, beam status). Tutorials emphasize applying filters to avoid spurious or low-confidence measurements.
+- GEDI data include quality flags (e.g. sensitivity, beam type, etc. ). Tutorials emphasize applying filters to avoid spurious or low-confidence measurements.
 
 Spatial Subsets / AOIs
 - Where possible, focus on modest-sized areas (e.g. tens to a few hundreds of footprints) to speed execution and avoid memory bottlenecks.
