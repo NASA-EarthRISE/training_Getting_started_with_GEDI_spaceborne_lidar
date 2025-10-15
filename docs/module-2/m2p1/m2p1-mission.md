@@ -15,7 +15,7 @@ nav_order: 1
 * Introduction to GEDI’s application areas.
 
 [Watch this video on the GEDI instrument](https://svs.gsfc.nasa.gov/13114/\#media\_group\_324466){: .btn .btn-green }
-*Image Source: [NASA Scientific Visualization Studio (2018)](https://svs.gsfc.nasa.gov/13114/#media_group_324466).*
+*Source: [NASA Scientific Visualization Studio (2018)](https://svs.gsfc.nasa.gov/13114/#media_group_324466).*
 
 ---
 
@@ -30,11 +30,11 @@ The Global Ecosystem Dynamics Investigation (GEDI) produces high resolution lase
 
 GEDI is a “geodetic-class,” light detection and ranging (lidar) laser system. Three lasers that produce eight parallel ground tracks each fire 242 times per second to illuminate a **25m footprint** over the surface where the vertical structure is measured. There are about **600m between each of the eight ground tracks**, where each **footprint is sampled 60m apart** along the track. Tens of billions of cloud-free observations have been collected. Since GEDI is a sensor aboard the International Space Station (ISS), it follows the station’s orbital path, and collects observations **between 51.6° N & S latitude**. The mission collected data from **April 4, 2019 \- March 16, 2023**. A period of hibernation when **no data was collected** ensued from **March 16, 2023 \- April 26, 2024**. It has resumed activity since then, and is set to continue until **\~2030**.
 
-\!\[ISS\](https://gedi.umd.edu/wp-content/uploads/2018/04/iss\_jem\_diag\_combo\_v3-1024x903.jpg)  
+![ISS](https://gedi.umd.edu/wp-content/uploads/2018/04/iss\_jem\_diag\_combo\_v3-1024x903.jpg)  
 *Source: [GEDI Mission.](https://gedi.umd.edu/instrument/instrument-overview/)*
 
 GEDI is unique since it is the first of its kind-a space-based lidar optimized to retrieve vegetation vertical structure. [Such a feat was accomplished by over 20 years of spaceborne laser altimetry and terrestrial ecology community advancements in lidar](https://plus.nasa.gov/series/leaders-in-lidar/).    
-\!\[Cal-val\](https://gedi.umd.edu/wp-content/uploads/2018/04/calval\_figure\_GEDI-1.png)  
+![Cal-val](https://gedi.umd.edu/wp-content/uploads/2018/04/calval\_figure\_GEDI-1.png)  
 *Source: [The GEDI Mission \- Calibration and Validation](https://gedi.umd.edu/science/calibration-validation/)* 
 
 Other lidar or field based means of collecting vegetation height, canopy cover, plant area, plant area volume density, or foliage height diversity have various trade-offs regarding geographical coverage, spatial and temporal resolution, and density or ease of access and analysis:
@@ -93,42 +93,42 @@ GEDI contributes a “missing piece,” the third-dimension, of surface structur
 
 Capturing elevation, even below dense canopies, is one of GEDI’s key roles. Laser altimetry is notorious for its precise geolocation and definition of surface elevation. ICESat laser altimeters, by comparison, have been used to help validate and quantify errors in existing DEM ([GEDI webpage applications).](https://gedi.umd.edu/applications/topography-and-surface-deformation/)
 
-\!\[transect\](https://gedi.umd.edu/wp-content/uploads/2019/04/southcarolina\_gedi\_chart\_large-1-1024x441.png)  
+![transect](https://gedi.umd.edu/wp-content/uploads/2019/04/southcarolina\_gedi\_chart\_large-1-1024x441.png)  
 *Source: [GEDI Mission.](https://gedi.umd.edu/data-collection-started/)*
 
 ## **Continental and Coastal Water Resources**
 
 Surface waters like inland seas, lakes, rivers, reservoirs, and wetlands, are commonly monitored with laser altimetry. Measuring the elevation of water bodies is important for hydrology studies regarding water volume change, *in situ* station leveling, wetland water level changes, river reach slopes, and river stage and discharge. GEDI provides sub-kilometer sampling of elevation outside of the water and for water in highly vegetated places.
 
-\!\[mangroves\]([https://gedi.umd.edu/wp-content/uploads/2018/04/AFRC2016-0054-258-1024x683.jpg](https://gedi.umd.edu/wp-content/uploads/2018/04/AFRC2016-0054-258-1024x683.jpg))  
+![mangroves]([https://gedi.umd.edu/wp-content/uploads/2018/04/AFRC2016-0054-258-1024x683.jpg](https://gedi.umd.edu/wp-content/uploads/2018/04/AFRC2016-0054-258-1024x683.jpg))  
 *Source: Mangrove forest in Pongara National Park in Gabon, Africa, photographed during NASA’s 2016 AfriSAR mission ([GEDI Mission](https://gedi.umd.edu/applications/water-resources/)).*
 
 ## **Weather Prediction**
 
 Data for the detailed canopy structure and ground elevation can be used as biophysical variables in land surface models for weather predictions and forecasting. Regional radiation and evapotranspiration studies can use canopy gap (vegetation to ground ratios), surface roughness information from canopy heights, and plant area index. *“Turbulence formation, heat and gas exchange, and aerosol dispersion in the biosphere-atmosphere boundary layer”* can improve predictions ([GEDI Mission](https://gedi.umd.edu/applications/weather-prediction/)).
 
-\!\[weather\]([https://gedi.umd.edu/wp-content/uploads/2018/01/IGBP\_windbreak.jpg](https://gedi.umd.edu/wp-content/uploads/2018/01/IGBP_windbreak.jpg))  
+![weather]([https://gedi.umd.edu/wp-content/uploads/2018/01/IGBP\_windbreak.jpg](https://gedi.umd.edu/wp-content/uploads/2018/01/IGBP_windbreak.jpg))  
 *Source: “Meteorological effects of tree canopies. Credit: 2015 Franciszek Woch et al.” ([GEDI Mission](https://gedi.umd.edu/applications/weather-prediction/)).*
 
 ## **Fire Modeling**
 
 How much available fuel is there within a landscape, and is it mostly distributed horizontally or vertically? Managing landscapes and forests to address or prevent wildfires with prescribed burning strongly depends on an ability to characterize the structural components that could be set aflame. GEDI’s ability to capture localized at or near surface fuel characterization is an active area of research. The sampling density and spatial distribution over time enables land managers to test how well GEDI metrics are able to capture the efficacy of fuel treatments over a landscape. When applied to algorithms such as mapping canopy base height or canopy bulk densities, GED has the potential to help identify areas of high fire risk or ecosystem resilience to fire. 
 
-\!\[Fire modelling\](https://gedi.umd.edu/wp-content/uploads/2018/03/GEDI\_fire\_diag-copy.jpg)  
+![Fire modelling](https://gedi.umd.edu/wp-content/uploads/2018/03/GEDI\_fire\_diag-copy.jpg)  
 *Source: Data flow for generation of GEDI-derived information products to aid managers and policy makers in assessments, monitoring and decision making related to wildland fire. Credit: Birgit Peterson. ([GEDI Mission](https://gedi.umd.edu/applications/forest-management-and-carbon-cycling/)).*
 
 ## **Habitat Quality and Biodiversity**
 
 The three-dimensional structure of forests is a key determinant of habitat quality, suitability, species distribution, richness, and abundance. GEDI provides crucial canopy structural measurements to quantify habitat and address the poor understanding of forest biological diversity at regional and global scales. GEDI provides much needed information for forest structure variations at regional scales, across climates, and under different levels of habitat disturbances. Pairing GEDI with direct wildlife observation data and combining the data with wall-to-wall mapping methods can enhance the detail of biodiversity information.
 
-\!\[birds\](https://earthdata.nasa.gov/s3fs-public/styles/hds\_large/public/2024-08/gedi\_bird\_ecology.original.png?VersionId=uYsckOxGgpAV1ugMKpF8h5BC7wBSaXfL\&itok=XtO4842F)  
+![birds](https://earthdata.nasa.gov/s3fs-public/styles/hds\_large/public/2024-08/gedi\_bird\_ecology.original.png?VersionId=uYsckOxGgpAV1ugMKpF8h5BC7wBSaXfL\&itok=XtO4842F)  
 *Source: “Bird species occurrence model in Sonoma County, California, using simulated GEDI data. (Courtesy of Burns et al. \[2020\])” ([Data in Action, EarthData “A GEDI Master of the Bird World”](https://www.earthdata.nasa.gov/learn/data-in-action/gedi-master-bird-world)).*
 
 ## **Ecosystem Modeling and Management**
 
 Decisions regarding how ecosystems are managed are largely dictated by understanding of vegetation dynamics, as in *“how, where, and what kind of vegetation grows in a given place”* ([GEDI Mission](https://gedi.umd.edu/applications/forest-management-and-carbon-cycling/)). Individual or landscape scale tree mapping for these kinds of models are facilitated with GEDI canopy height, plant area, plant area volume density, foliage height diversity, structural complexity estimations. 
 
-\!\[treestrata\]([https://gedi.umd.edu/wp-content/uploads/2018/03/formind\_process.jpg](https://gedi.umd.edu/wp-content/uploads/2018/03/formind_process.jpg))
+![treestrata]([https://gedi.umd.edu/wp-content/uploads/2018/03/formind\_process.jpg](https://gedi.umd.edu/wp-content/uploads/2018/03/formind_process.jpg))
 
 *Source: “Forest demographic processes represented by an individual based dynamic vegetation model ([www.formind.org](http://www.formind.org/)). Forest structure measurements from GEDI can be used to improve representation of these and other processes that influence the future of forests” ([GEDI Mission](https://gedi.umd.edu/applications/forest-management-and-carbon-cycling/)).*
 
