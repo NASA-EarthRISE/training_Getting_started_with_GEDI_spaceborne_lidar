@@ -71,13 +71,13 @@ Here is an outline of the main directories and files:
 
 ├── tutorials/ ← Python notebooks, R scripts, and Google Earth Engine Scripts / hands-on modules
 
-   ├── Exploring_forest_structure_with_GEDI_L2B.ipynb ← Module 2 L2B vegetation structure access and preparation
+- Exploring_forest_structure_with_GEDI_L2B.ipynb ← Module 2 L2B vegetation structure access and preparation
    
-   ├── Exploring_biomass_with_GEDI_L4.ipynb ← Module 2 L4A & L4B biomass estimations access and preparation
+- Exploring_biomass_with_GEDI_L4.ipynb ← Module 2 L4A & L4B biomass estimations access and preparation
    
-   ├── Comparing_GEDI_L2B_with_highres_lidar_sewanee.ipynb ← Module 2 correlate GEDI with airborne lidar
+- Comparing_GEDI_L2B_with_highres_lidar_sewanee.ipynb ← Module 2 correlate GEDI with airborne lidar
    
-   ├── Local_biomass_modelling/ ← Module 4 correlating biomass with local survey data and airborne lidar
+- Local_biomass_modelling/ ← Module 4 correlating biomass with local survey data and airborne lidar
    
    - Exercise 1 ← R scripts and supporting datasets for GEDI simulation
 
