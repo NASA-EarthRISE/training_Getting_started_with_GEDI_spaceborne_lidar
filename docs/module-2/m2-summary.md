@@ -116,8 +116,9 @@ Duncanson, L., Kellner, J.R., Armston, J., Dubayah, R., Minor, D.M., Hancock, S.
 
 Duncanson, L., Kellner, J.R., Armston, J., Dubayah, R., Minor, D.M., Hancock, S., Healey, S.P., Patterson, P.L., Saarela, S., Marselis, S., Silva, C.E., Bruening, J., Goetz, S.J., Tang, H., Hofton, M., Blair, B., Luthcke, S., Fatoyinbo, L., Abernethy, K., et al. (2022). Aboveground biomass density models for NASA's Global Ecosystem Dynamics Investigation (GEDI) lidar mission. Remote Sensing of Environment, 270, 112845\. [https://doi.org/10.1016/j.rse.2021.112845](https://doi.org/10.1016/j.rse.2021.112845) 
 
-Duncanson, L., Neuenschwander, A., Hancock, S., Thomas, N., Fatoyinbo, T., Simard, M., Silva, C. A.,  
-Dwiputra, A., Coops, N. C., & Schwartz, N. B. (2023). GEDI waveform metrics in vegetation mapping—A case study from a heterogeneous tropical forest landscape. Environmental Research Letters, 18(1), 015007\. [https://doi.org/10.1088/1748-9326/acad8d](https://doi.org/10.1088/1748-9326/acad8d) 
+Duncanson, L., Neuenschwander, A., Hancock, S., Thomas, N., Fatoyinbo, T., Simard, M., Silva, C. A., Armston, J., Luthcke, S. B., Hofton, M., Kellner, J. R., & Dubayah, R. (2020). Biomass estimation from simulated GEDI, ICESat-2 and NISAR across environmental gradients in Sonoma County, California. Remote Sensing of Environment, 242, 111779. [https://doi.org/10.1016/j.rse.2020.111779](https://doi.org/10.1016/j.rse.2020.111779)
+
+Duncanson, L., Neuenschwander, A., Hancock, S., Thomas, N., Fatoyinbo, T., Simard, M., Silva, C. A., Dwiputra, A., Coops, N. C., & Schwartz, N. B. (2023). GEDI waveform metrics in vegetation mapping—A case study from a heterogeneous tropical forest landscape. Environmental Research Letters, 18(1), 015007\. [https://doi.org/10.1088/1748-9326/acad8d](https://doi.org/10.1088/1748-9326/acad8d) 
 
 Elliott, L. H., Vogeler, J. C., Holbrook, J. D., Barry, B. R., & Vierling, K. T. (2024). Assessing GEDI data fusions to map woodpecker distributions and biodiversity hotspots. Environmental Research Letters, 19(9), 094027\. [https://doi.org/10.1088/1748-9326/ad64eb](https://doi.org/10.1088/1748-9326/ad64eb) 
 
