@@ -90,9 +90,9 @@ Sonaira Souza Silva 14
 Sidney Novoa 15  
 Karis Tenneson 16  
 Andrea Nicolau 16  
-Mark Cochrane 17
+Mark Cochrane 17  
 Alexandre Goberna 1, 19  
-Billy Ashmall 1, 19
+Billy Ashmall 1, 19  
 
 #### **Acknowledgements:**
 
@@ -118,8 +118,8 @@ Alvaro Paz 23
 Osmar Yupanqui 15  
 Fernanda Lopez Ornelas 16
 
-**\*** Lead co-developers
 
+**\*** Lead co-developers
 1) NASA Earth Action, Marshall Space Flight Center (MSFC)  
 2) University of Alabama in Huntsville, Lab for Applied Sciences  
 3) NASA Jet Propulsion Laboratory (JPL) & California Institute of Technology  
