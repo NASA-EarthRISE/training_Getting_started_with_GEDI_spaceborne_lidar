@@ -71,11 +71,18 @@ Jiménez, S., Mayer, T., Goberna Moron, A., Billy Ashmall, Christine Evans, Pint
 \*Naiara Pinto 3  
 \*Savannah S Cooley 9  
 \*Sean Healey 4, 18  
-\*Christine Evans 1, 2   
-Zhiqiang Yang 9  
-Lucas Johnson 11  
-\*Diana West 1, 2  
+\*Christine Evans 1, 2
 \*Izaya Numata 5  
+\*Kevin Horn 1
+\*Diana West 1, 2
+\*Kaitlin Walker 1, 2  
+\*Jacob Abramowitz 1, 2
+\*Sativa Cruz 9
+\*Vanesa Martin Arias 1, 2 
+Lena Pransky 1, 2  
+Meryl Kruskopf 1, 2
+Zhiqiang Yang 9  
+Lucas Johnson 11      
 Nadeem Fareed 12  
 Marcus d’Oliveira 13  
 Willian Antonio Melo 14  
@@ -83,14 +90,9 @@ Sonaira Souza Silva 14
 Sidney Novoa 15  
 Karis Tenneson 16  
 Andrea Nicolau 16  
-Mark Cochrane 17  
-\*Sativa Cruz 9  
-\*Kevin Horn 1  
-\*Vanesa Martin Arias 1, 2  
-\*Kaitlin Walker 1, 2  
-\*Jacob Abramowitz 1, 2  
-Lena Pransky 1, 2  
-Meryl Kruskopf 1, 2
+Mark Cochrane 17
+Alexandre Goberna 1, 19  
+Billy Ashmall 1, 19
 
 #### **Acknowledgements:**
 
@@ -101,8 +103,7 @@ Michael Keller 3, 18
 Laura Duncanson 6, 18  
 Andrew Neil Sagar 6  
 Ralph Dubayah 6, 18  
-Eric Anderson1  
-Alexandre Goberna 1, 19  
+Eric Anderson 1  
 Jake Ramthun 1, 2  
 Micky Maganini 1, 2  
 Phoebe Oduor 1, 2  
