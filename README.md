@@ -42,13 +42,8 @@ Jiménez, S., Mayer, T., Goberna Moron, A., Billy Ashmall, Christine Evans, Pint
 2. [Citing & Credits](#citing--credits)  
 3. [Repository Structure](#repository-structure)  
 4. [Getting Started](#getting-started)  
-   1. [Prerequisites](#prerequisites)  
-   2. [Installation](#installation)  
-   3. [Launching Locally](#launching-locally)  
-5. [Tutorial Modules](#tutorial-modules)  
-6. [Usage Guidelines & Tips](#usage-guidelines--tips)  
-7. [Contribution & Issues](#contribution--issues)
-8. [License](#license)
+5. [Usage Guidelines & Tips](#usage-guidelines--tips)  
+6. [Contribution & Issues](#contribution--issues)
 
 ---
 
