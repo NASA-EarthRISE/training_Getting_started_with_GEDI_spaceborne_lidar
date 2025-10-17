@@ -61,6 +61,9 @@ This training series gathers resources and examples of GEDI applications to help
 
 # **Co-developers, Contributors, & Acknowledgements**
 
+Please cite as: 
+Jiménez, S., Mayer, T., Goberna Moron, A., Billy Ashmall, Christine Evans, Pinto, N., Cooley, S., Healey, S., Yang, Z., Johnson, L., West, D., Numata, I., Fareed, N., d'Oliveira, . d'Oliveira ., Melo, A. W. F. de ., Souza da Silva, S., Novoa, S., Tenneson, K., Puzzi Nicolau, A., … Kruskopf, M. (2025). NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar: v1.0.0 (First-release). Zenodo. [https://doi.org/10.5281/zenodo.17353798](https://doi.org/10.5281/zenodo.17353798)
+
 #### **Co-developers & Contributors:** 
 
 \*Stephanie Jiménez 1, 2  
