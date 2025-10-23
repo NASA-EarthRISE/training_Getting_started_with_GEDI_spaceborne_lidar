@@ -4,7 +4,7 @@
 Option 1 — Run in Google Colab
 
 You can open and execute this tutorial directly in Colab without installing anything locally:
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/GEDI_Footprint_Analysis/blob/main/Select_GEDI_footprints.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/blob/main/tutorials/ARSET_Part2/Select_GEDI_footprints.ipynb])
 
 ## Overview
 
