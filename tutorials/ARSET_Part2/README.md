@@ -1,4 +1,4 @@
-# GEDI LiDAR Footprint Access, Analysis, Visualization, and Download Tutorial
+# GEDI Lidar Footprint Access, Analysis, Visualization, and Download Tutorial
 
 ## Quick Start
 Option 1 — Run in Google Colab
