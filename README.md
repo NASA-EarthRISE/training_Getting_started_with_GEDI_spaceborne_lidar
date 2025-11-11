@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/984860390.svg)](https://doi.org/10.5281/zenodo.17353798)
 
+![Last Updated](https://img.shields.io/github/last-commit/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar?label=Last%20Updated&color=2E8B57)
+
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)  
 [![R](https://img.shields.io/badge/R-4.x-blue.svg)](https://www.r-project.org/)
 [![JavaScript (Google Earth Engine)](https://img.shields.io/badge/JavaScript-Google%20Earth%20Engine-F7DF1E.svg?logo=javascript&logoColor=black)](https://earthengine.google.com/)
@@ -9,7 +11,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)  
 
-![Last Updated](https://img.shields.io/github/last-commit/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar?label=Last%20Updated&color=2E8B57)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nasa-earthrise.training_Getting_started_with_GEDI_spaceborne_lidar)
 
 ## Overview & Purpose
 This repository hosts the **training webpage** and **hands-on tutorials** to help users learn the fundamentals of the **Global Ecosystem Dynamics Investigation (GEDI)** spaceborne LiDAR, apply GEDI data to real-world ecosystems, and explore best practices for preparing context-aware, quality-filtered GEDI datasets.
