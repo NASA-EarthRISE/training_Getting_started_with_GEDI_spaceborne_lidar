@@ -72,21 +72,21 @@ Jiménez, S., Mayer, T., Pinto, N., Cooley, S., Healey, S., Christine Evans, Num
 \*Naiara Pinto 3  
 \*Savannah S Cooley 9  
 \*Sean Healey 4, 18  
-\*Christine Evans 1, 2
+\*Christine Evans 1, 2 
 \*Izaya Numata 5  
-\*Kevin Horn 1
-\*Diana West 1, 2
+\*Kevin Horn 1 
+\*Diana West 1, 2 
 \*Kaitlin Walker 1, 2  
-\*Jacob Abramowitz 1, 2
-\*Sativa Cruz 9
+\*Jacob Abramowitz 1, 2 
+\*Sativa Cruz 9 
 \*Vanesa Martin Arias 1, 2 
 Lena Pransky 1, 2  
-Meryl Kruskopf 1, 2
+Meryl Kruskopf 1, 2 
 Zhiqiang Yang 9  
 Lucas Johnson 11      
 Nadeem Fareed 12  
-Marcus d’Oliveira 13  
-Willian Antonio Melo 14  
+Marcus d’Oliveira 13   
+Willian Antonio Melo 14   
 Sonaira Souza Silva 14  
 Sidney Novoa 15  
 Karis Tenneson 16  
